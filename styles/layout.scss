@@ -1,0 +1,50 @@
+@import './colors.scss';
+
+// Grid
+
+$minColWidth: 300px;
+$gridGap: 1rem;
+
+.grid-wrap {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($minColWidth, 1fr));
+  grid-gap: $gridGap;
+}
+
+.colonne {
+  padding: $gridGap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  //align-items: center; /* centers items horizontally */
+  justify-content: center; /* centers items vertically */
+}
+.hero2 {
+  min-height: 70vh;
+}
+.height100 {
+  height: 100%;
+}
+@supports (grid-area: auto) {
+  body {
+    display: grid;
+  }
+}
+@media (min-width: 500px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1.5rem;
+  }
+}

@@ -1,0 +1,146 @@
+@import './fonts.scss';
+
+// Cards
+//card + image left
+.imagecard {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  .card-image {
+    display: flex;
+    flex: 1;
+    z-index:1;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex: 2;
+  }
+}
+.card-image {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 800px) {
+  .imagecard {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+//card + icon top
+.iconcard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: flex-start;
+  height: 100%;
+}
+
+//logos
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  .clientlogo {
+    padding: 1rem;
+    filter: grayscale(1);
+    &:hover {
+      filter: none;
+    }
+  }
+}
+//card + number
+.numbercard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @media (max-width: 800px) {
+    .numbercard {
+      flex-direction: column;
+    }
+  }
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  .ctacontent {
+    padding: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .cta {
+    flex-direction: column;
+  }
+}
+// Flexgrid
+$flexgridpadding: 3rem;
+$flexgridgutter: 3rem;
+
+.flexgridparent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexgridchild {
+  margin-right: $flexgridgutter;
+  margin-bottom: $flexgridgutter;
+  padding: $flexgridpadding;
+  flex-direction: column;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .flexgridparent {
+    flex-direction: column;
+  }
+  .flexgridchild {
+    margin: 0 0 2rem 0;
+    &:last-child {
+      margin: 0 0 2rem 0;
+    }
+  }
+}
+.items3 {
+  flex: 1 1 25%;
+}
+.items4 {
+  flex: 1 1 20%;
+}
+.certification {
+  margin-left: 4rem;
+  padding: 2rem;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .certification {
+    margin-left: 0;
+  }
+}
+
+// grid + flexbox for multiple rows
+.card2 {
+  display: flex; /* [1] */
+  flex-direction: column; /* [2] */
+}
+
+.card2__content {
+  flex-grow: 1; /* [3] */
+  display: flex; /* [4] */
+  flex-direction: column;
+  padding: 2rem;
+}
+
+/* 1 Making the card as a flexbox wrapper.
+  2 The direction is column, which means the card elements are stacked.
+  3 Letting the card content expand and fill the remaining space.
+  4 Making the card content as a flexbox wrapper.
+  5 Finally, using margin-top: auto to push the link down. This will keep it 
+  positioned at the end regardless of the card height.*/

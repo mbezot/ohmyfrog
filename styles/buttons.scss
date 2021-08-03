@@ -1,0 +1,81 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+// Boutons
+
+// PLUS
+.btn-plus {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+.plus {
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top:0;
+  font-weight: normal;
+  &a {
+    color: $darkblue;
+  }
+  &:hover {
+    color: $white;
+  }
+}
+a.btn-plus {
+  color: $darkblue;
+  letter-spacing: 0.1rem;
+  transition: 0.2s transform ease-out;
+  &:hover {
+    color: $white;
+    transform: scale(1.1);
+  }
+}
+
+//coolbeans
+.coolBeans {
+  width:20rem;
+	border: none;
+  background-color: $pink;
+	border-radius: 3rem;
+	color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: $body-font;
+	font-size: 1rem;
+  letter-spacing: 0.1rem;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+	text-decoration: none;
+	transition: 0.2s transform ease-in-out;
+	will-change: transform;
+	z-index: 0;
+	&::after {
+		background-color: $darkblue;
+		border-radius: 3rem;
+		content: '';
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		transform: translate(-100%, 0) rotate(10deg);
+		transform-origin: top left;
+		transition: 0.2s transform ease-out;
+		will-change: transform;
+		z-index: -1;
+	}
+	&:hover {
+		border: none;
+		color: $white;
+		transform: scale(1.05);
+		will-change: transform;
+		&::after {
+			transform: translate(0, 0);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@font-face {
+  font-family: 'formula-condensed-regular';
+  src: url('/fonts/FormulaCondensed-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+$heading-font: 'formula-condensed-regular', sans-serif;
+$body-font: 'Quicksand', sans-serif;

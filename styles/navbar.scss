@@ -1,0 +1,125 @@
+@import '../styles/colors.scss';
+@import '../styles/fonts.scss';
+
+//Mobile view
+.logocontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-self: flex-start;
+  padding: 1rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: $pink;
+    transition: all 0.3s ease 0s;
+    flex: 2;
+  }
+}
+.logotext {
+  font-size: 1.5rem;
+}
+.Nav__black {
+  z-index: 900;
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  margin-left: auto;
+}
+a,
+button,
+.logotext {
+  font-family: $heading-font;
+  font-weight: normal;
+  text-decoration: none;
+  font-feature-settings: 'aalt';
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+
+.btn-contact {
+  padding: 1rem 1rem 0.7rem 1rem;
+  text-transform: uppercase;
+  background-color: $yellow;
+  border: none;
+  cursor: pointer;
+}
+.Nav {
+  position: fixed;
+}
+.nav {
+  &__toggle {
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+    float: right;
+    .close {
+      display: none;
+    }
+    .menu {
+      margin-top: 0.3rem;
+    }
+  }
+  &__checkbox {
+    display: none;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-end;
+    margin: 1rem;
+    padding-right: 1.5rem;
+    li {
+      list-style: none;
+      display: none;
+
+      &:first-child {
+        margin-right: auto;
+        display: block;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.1rem;
+      &:hover {
+        border-bottom: 6px solid #86bf58;
+        padding-bottom: 0;
+        transition: all 0.3s ease 0s;
+      }
+    }
+  }
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+}
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+//Desktop view
+@media only screen and (min-width: 60rem) {
+  .nav {
+    z-index: 900;
+    &__toggle {
+      display: none;
+    }
+    &__menu {
+      flex-direction: row;
+      align-items: center;
+
+      li {
+        display: block;
+      }
+    }
+  }
+  .logocontainer {
+    position: relative;
+  }
+}
+
+//MenuPrincipal

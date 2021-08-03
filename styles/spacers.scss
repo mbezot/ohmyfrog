@@ -1,0 +1,100 @@
+.center {
+  text-align: center;
+}
+// PADDINGS
+.p0 {
+  padding: 0;
+}
+//padding-top
+
+.pt0 {
+  padding-top: 0;
+}
+.pt3 {
+  padding-top: 3rem;
+}
+.pt5 {
+  padding-top: 5rem;
+}
+.pt7 {
+  padding-top: 7rem;
+}
+//padding-bottom
+.pb0 {
+  padding-bottom: 0;
+}
+.pb3 {
+  padding-bottom: 3rem;
+}
+.pb5 {
+  padding-bottom: 5rem;
+}
+.pb7 {
+  padding-bottom: 7rem;
+}
+//padding-left
+.pl2 {
+  padding-left: 2rem;
+}
+// padding Y
+.py5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+// padding X
+.px10 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 800px) {
+  .px10 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .px10 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+.px20 {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+// spacer
+.sp7 {
+  height: 7rem;
+}
+// padding
+.padding1 {
+  padding: 1rem;
+}
+@media (max-width: 800px) {
+  .px20 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+///////////// Margins
+.ml4 {
+  margin-left: 4rem;
+}
+.m0 {
+  margin: 0;
+}
+.mt5 {
+  margin-top: 5rem;
+}
+//Alignement
+.right {
+  position: relative;
+  float: right;
+}
+.left {
+  margin-right: auto;
+}
+.bottom {
+  align-self: flex-end;
+  margin-top: auto;
+}

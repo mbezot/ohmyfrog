@@ -1,0 +1,38 @@
+@import './colors.scss';
+
+// Backgrounds
+.bggreen {
+  background-color: $green;
+}
+.bgpink {
+  background-color: $pink;
+}
+.bgdarkblue {
+  background-color: $darkblue;
+}
+.bgyellow {
+  background-color: $yellow;
+}
+.bgwhite {
+  background-color: $white;
+}
+.bglightgrey {
+  background-color: $lightgrey;
+}
+
+// Text colors
+.txtgreen {
+  color: $green;
+}
+.txtpink {
+  color: $pink;
+}
+.txtdarkblue {
+  color: $darkblue;
+}
+.txtyellow {
+  color: $yellow;
+}
+.txtwhite {
+  color: $white;
+}
