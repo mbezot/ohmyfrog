@@ -3,11 +3,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 import RealisationsWeb from '../components/realisationsweb'
 import AccordionWeb from '../components/accordion-web'
+import React, { useRef } from "react";
 
 
 export default function WebDesign() {
 
+    const ref = useRef(null);
+    React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+    });    
+
     return (
+        
         <>
         <Head>
             <title>Oh My Frog | Web Design</title>
@@ -24,6 +31,16 @@ export default function WebDesign() {
             <h1 className="txtwhite">Web Design</h1>
             <p className="txtwhite leadL">Nous transformons votre site en machine 
             à générer des clients. Notre objectif : faire de votre site votre vendeur N°1.</p>
+            <div className="lottieweb">
+                <lottie-player
+                    id="weblottie" ref={ref}
+                    loop
+                    autoplay preserveAspectRatio
+                    mode="normal"
+                    src="./images/lotties/webdesign.json"
+                    style={{ width: "1000px", height: "1000px", bottom:"-20rem" }}>
+                </lottie-player>
+            </div>
         </div>
         </div>
 

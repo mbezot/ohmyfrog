@@ -1,0 +1,52 @@
+.lottiehome {
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease 0s;
+  bottom: -39rem;
+  right: -1.5rem;
+  @media screen and (max-width: 768px) {
+    bottom: -38rem;
+  }
+}
+.lottiestrat {
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease 0s;
+  right: -30rem;
+  bottom: 17rem;
+  @media screen and (max-width: 768px) {
+    right: -20rem;
+  }
+}
+.lottiemarketing {
+  z-index: 1;
+  position: absolute;
+  right: -10rem;
+  bottom: 9rem;
+  transition: all 2s ease 0s;
+  @media screen and (max-width: 768px) {
+    bottom: 4rem;
+    right: -13rem;
+  }
+}
+.lottieweb {
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease 0s;
+  bottom: -7rem;
+  right: -10rem;
+  @media screen and (max-width: 768px) {
+    right: -23rem;
+  }
+}
+.lottieabout {
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease 0s;
+  bottom: 27rem;
+  right: 5rem;
+  @media screen and (max-width: 768px) {
+    bottom: 22rem;
+    right: 0;
+  }
+}

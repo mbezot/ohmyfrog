@@ -4,10 +4,17 @@ import Link from 'next/link'
 import Clients from '../components/customers'
 import Temoignages from '../components/temoignages'
 import Services from '../components/services'
+import React, { useRef } from "react";
 
 
 
 export default function Home({ allPostsData }) {
+
+  const ref = useRef(null);
+  React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+  });
+
   return (
     <>
     <Head>
@@ -26,12 +33,14 @@ export default function Home({ allPostsData }) {
 <main className="grid-wrap">
 <div className="grid bggreen hero px10">
   <div className="colonne">
-    <h1 className="leadXL bodyfont pb7">
+    <h1 className="pb3">Oh My FroG</h1>
+    <h2 className="leadXL pb5">
       <span className="txtyellow">Agence de marketing digital</span> agile, 
       honnête, qui bosse dur, qui aime s’éclater et qui pétille d’idées 
-      fraîches pour votre business.</h1>
+      fraîches pour votre business.</h2>
 
-        <Link href="/strategie_digitale"><a className="coolBeans">
+      <div className="flexrowleft">
+      <Link href="/strategie_digitale"><a className="coolBeans">
           Stratégie digitale
           </a>
         </Link>
@@ -43,8 +52,21 @@ export default function Home({ allPostsData }) {
         <Link href="/web_design"><a className="coolBeans">
           Web Design</a>
         </Link>
+      </div>
+
+        
+  </div>
+  <div className="lottiehome">
+  <lottie-player
+    id="homelottie" ref={ref}
+    autoplay loop preserveAspectRatio
+    mode="normal"
+    src="./images/lotties/homehero2.json"
+    style={{ width: "1000", height: "1000" }}
+        ></lottie-player>
   </div>
 </div>
+
 
 <div className="sp7"></div>
 

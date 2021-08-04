@@ -2,8 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import AccordionMarketing from '../components/accordion-marketing'
 import Clients from '../components/customers'
+import React, { useRef } from "react";
 
 export default function MarketingDigital() {
+
+    const ref = useRef(null);
+    React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+    });
+
     return (
         <>
         <Head>
@@ -24,7 +31,17 @@ export default function MarketingDigital() {
             <h1>Marketing Digital</h1>
             <p className="leadL">Pour nous, le marketing digital se compose de quatre ingrédients : le bon message, les bonnes personnes, le bon média et le bon moment*.</p>
             <div className="pt7">
-                <p>*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C'est là que nous intervenons.</p>
+                <p className="leadM">*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C'est là que nous intervenons.</p>
+            </div>
+            <div className="lottiemarketing">
+                <lottie-player
+                    id="weblottie" ref={ref}
+                    loop
+                    autoplay preserveAspectRatio
+                    mode="normal"
+                    src="./images/lotties/marketing.json"
+                    style={{ width: "900px", height: "900px" }}>
+                </lottie-player>
             </div>
         </div>
         </div>

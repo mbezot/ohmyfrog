@@ -8,11 +8,11 @@ import '../styles/spacers.scss'
 import '../styles/accordion.scss'
 import '../styles/footer.scss'
 import '../styles/backgrounds-text-colors.scss'
-
+import '../styles/lottie.scss'
 import '../styles/navigation.css'
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
     <Layout>
       <Component {...pageProps} />

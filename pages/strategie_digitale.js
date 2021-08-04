@@ -4,8 +4,15 @@ import Link from 'next/link'
 import AccordionStrategy from '../components/accordion-strategy'
 import Clients from '../components/customers'
 import Temoignages from '../components/temoignages'
+import React, { useRef } from "react";
 
 export default function StrategieDigitale() {
+
+    const ref = useRef(null);
+    React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+    });  
+
     return (
         <>
         <Head>
@@ -22,7 +29,18 @@ export default function StrategieDigitale() {
         <div className="grid hero2 bgpink px10 py5">
         <div className="colonne">
             <h1 className="txtwhite">Stratégie Digitale</h1>
-            <p className="txtwhite leadL">Votre plan d’action pour vendre à la bonne personne, au bon moment.</p>
+            <p className="txtwhite leadL">Votre plan d’action pour 
+            vendre à la bonne personne, au bon moment.</p>
+            <div className="lottiestrat">
+                <lottie-player
+                    id="strategylottie" ref={ref}
+                    count="2"
+                    autoplay preserveAspectRatio
+                    mode="normal"
+                    src="./images/lotties/strategy.json"
+                    style={{ width: "auto", height: "500px"}}>
+                </lottie-player>
+            </div>
         </div>
         </div>
 

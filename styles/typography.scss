@@ -24,6 +24,7 @@ h3,
   font-feature-settings: 'aalt';
   letter-spacing: 0.1rem;
   font-weight: normal;
+  z-index: 5;
 }
 h1 {
   font-size: 3.2rem;
@@ -41,9 +42,18 @@ p {
 .leadXL {
   font-size: 2.8rem;
   max-width: 50rem;
+  z-index: 5;
 }
 .leadL {
   font-size: 2.1rem;
+  z-index: 5;
+  @media screen and (min-width: 768px) {
+    max-width: 50%;
+  }
+}
+.leadM {
+  font-size: 1.2rem;
+  z-index: 5;
 }
 mark {
   font-family: inherit;

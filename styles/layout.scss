@@ -5,6 +5,11 @@
 $minColWidth: 300px;
 $gridGap: 1rem;
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .grid-wrap {
   margin: 0;
   padding: 0;
@@ -47,4 +52,10 @@ $gridGap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1.5rem;
   }
+}
+.flexrowleft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }

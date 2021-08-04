@@ -2,8 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Services from '../components/services'
+import React, { useRef } from "react";
 
 export default function apropos() {
+
+    const ref = useRef(null);
+    React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+    });
+
     return (
         <>
         <Head>
@@ -59,6 +66,18 @@ export default function apropos() {
 			</li>
 		</ul>
         </div>
+
+        <div className="lottieabout">
+                <lottie-player
+                    id="aboutlottie" ref={ref}
+                    loop
+                    autoplay preserveAspectRatio
+                    mode="normal"
+                    src="./images/lotties/apropos.json"
+                    style={{ width: "500px", height: "500px" }}>
+                </lottie-player>
+            </div>
+
         </div>
         </div>
 
