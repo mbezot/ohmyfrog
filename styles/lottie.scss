@@ -1,15 +1,15 @@
 .lottiehome {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: -39rem;
+  bottom: -1rem;
   right: -1.5rem;
   @media screen and (max-width: 768px) {
-    bottom: -38rem;
+    bottom: -1rem;
   }
 }
 .lottiestrat {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
   right: -30rem;
@@ -19,7 +19,7 @@
   }
 }
 .lottiemarketing {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   right: -10rem;
   bottom: 9rem;
@@ -30,7 +30,7 @@
   }
 }
 .lottieweb {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
   bottom: -7rem;
@@ -40,7 +40,7 @@
   }
 }
 .lottieabout {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
   bottom: 27rem;

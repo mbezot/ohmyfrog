@@ -36,8 +36,8 @@ export default function MarketingDigital() {
             <div className="lottiemarketing">
                 <lottie-player
                     id="weblottie" ref={ref}
-                    loop
-                    autoplay preserveAspectRatio
+                    count="1"
+                    autoplay
                     mode="normal"
                     src="./images/lotties/marketing.json"
                     style={{ width: "900px", height: "900px" }}>

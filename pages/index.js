@@ -59,7 +59,7 @@ export default function Home({ allPostsData }) {
   <div className="lottiehome">
   <lottie-player
     id="homelottie" ref={ref}
-    autoplay loop preserveAspectRatio
+    autoplay loop 
     mode="normal"
     src="./images/lotties/homehero2.json"
     style={{ width: "1000", height: "1000" }}

@@ -71,7 +71,7 @@ export default function apropos() {
                 <lottie-player
                     id="aboutlottie" ref={ref}
                     loop
-                    autoplay preserveAspectRatio
+                    autoplay
                     mode="normal"
                     src="./images/lotties/apropos.json"
                     style={{ width: "500px", height: "500px" }}>

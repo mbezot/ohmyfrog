@@ -35,7 +35,7 @@ export default function StrategieDigitale() {
                 <lottie-player
                     id="strategylottie" ref={ref}
                     count="2"
-                    autoplay preserveAspectRatio
+                    autoplay
                     mode="normal"
                     src="./images/lotties/strategy.json"
                     style={{ width: "auto", height: "500px"}}>

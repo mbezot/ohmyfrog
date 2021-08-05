@@ -34,8 +34,8 @@ export default function WebDesign() {
             <div className="lottieweb">
                 <lottie-player
                     id="weblottie" ref={ref}
-                    loop
-                    autoplay preserveAspectRatio
+                    count="1"
+                    autoplay
                     mode="normal"
                     src="./images/lotties/webdesign.json"
                     style={{ width: "1000px", height: "1000px", bottom:"-20rem" }}>

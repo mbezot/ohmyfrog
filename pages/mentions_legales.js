@@ -55,6 +55,17 @@ export default function MentionsLegales() {
                              contient et ce à tout moment sans avis préalable.</p>
                 </div>
             </div>
+            <div className="grid bglightgrey px10 py5">
+            <div className="colonne">
+                <h2>Crédits Lotties</h2>
+                <p>Incidious : <a href="https://lottiefiles.com/Indicius" target="_blank">https://lottiefiles.com/Indicius</a><br />
+                Aldebaran Matos : <a href="https://lottiefiles.com/Indicius" target="_blank">https://lottiefiles.com/gkdr07dwlc</a><br />
+                Anas : <a href="https://lottiefiles.com/Indicius" target="_blank">https://lottiefiles.com/anas</a><br />
+                Dhaval Patel : <a href="https://lottiefiles.com/Indicius" target="_blank">https://lottiefiles.com/Mograph_dude.lottie</a><br />
+                Motion Drive : <a href="https://lottiefiles.com/Indicius" target="_blank">https://lottiefiles.com/MotionDrive</a><br />
+                </p>
+            </div>
+            </div>
 
         </main>
         </>

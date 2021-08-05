@@ -31,7 +31,7 @@ const CloseIcon = styled.i`
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (
-    <DropdownContainer isOpen={isOpen} onClick={toggle}>
+    <DropdownContainer isOpen={isOpen} onClick={toggle} className="dropdownContainer">
 
       <CloseIcon onClick={toggle}/>
 
