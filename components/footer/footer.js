@@ -1,15 +1,7 @@
-import React, {useState} from 'react'
 import Link from 'next/link'
 import Contact from '../contact/contact'
-import ContactForm from './contactform';
 
 const Footer = () => {
-
-    const [isSubmitted, setIsSubmitted] = useState(false);
-
-    function submitForm() {
-    setIsSubmitted(true);
-    }
 
     return (
 

@@ -1,19 +1,16 @@
 const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-export default async function (req, res) {
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+export default async function Envoimail(req, res) {
+    
 
-    const { email, message, raison, promesse, name, salutation } = req.body;
+    const { raison, name, email, promesse, message, salutation } = req.body;
 
     const content = {
         to: "melanie@ohmyfrog.fr",
         from:"melanie@ohmyfrog.fr",
-        subject: `Oooh ! un nouveau message de ${email}`,
-        text: message,
-        text: raison,
-        text: promesse,
-        text: name,
-        text: salutation,
+        subject: `Oooh ! un nouveau message de ${name}`,
+        text: message,       
         html: `
         <p>Je vous contacte parce que ${raison}</p>
         <p>Mon nom est : ${name}</p>
@@ -30,6 +27,7 @@ export default async function (req, res) {
         res.status(200).send('Votre message a bien été envoyé, nous vous recontactons très vite.');
     } catch (error) {
         console.log('ERROR', error);
-        res.status(400).send('Houston, on a un problème avec ce formulaire... pouvez-vous nous écrire directement sur melanie@ohmyfrog.fr SVP ?');
+        console.error(error.response.body);
+        res.status(400).send('Houston, on a un problème... pouvez-vous nous écrire directement sur melanie@ohmyfrog.fr SVP ?');
     }
 }

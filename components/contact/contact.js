@@ -1,34 +1,22 @@
 import React, { useState } from 'react'
 import styles from './contact.module.scss'
+import Link from 'next/link'
 
 const Contact = () => {
 
-  const optionsraison  = [
-    {
-      label: "J'ai une question à vous poser",
-      value: "J'ai une question à vous poser",
-    },
-    {
-      label: "Je fais une crise de nerf",
-      value: "Je fais une crise de nerf",
-    },
-    {
-      label: "Bill Gates vous a recommandé",
-      value: "Bill Gates vous a recommandé",
-    },
-  ];
-
-  const [status, setStatus] = useState({
+const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
     info: { error: false, msg: null },
 });
 
 const [inputs, setInputs] = useState({
-    email: '',
-    message: '',
-    name: '',
     raison: '',
+    name: '',
+    email: '',
+    promesse: '',
+    message: '',
+    salutation: '',
 });
 
 const handleResponse = (status, msg) => {
@@ -39,10 +27,12 @@ const handleResponse = (status, msg) => {
             info: { error: false, msg: msg },
         });
         setInputs({
-            email: '',
-            message: '',
-            name: '',
             raison: '',
+            name: '',
+            email: '',
+            promesse: '',
+            message: '',
+            salutation: '',
         });
     } else {
         setStatus({
@@ -85,28 +75,25 @@ const handleOnSubmit = async (e) => {
         <div className={styles.container}>
           <form
                     onSubmit={handleOnSubmit}
-                    className="relative w-full px-4 mx-auto max-w-lg"
+                    className={styles.main}
                 >
                     <h2 className={styles.marge}>Hello</h2>
 
-                    <div className="mt-10">
-
                     <div className={styles.formgroup}>
-                    <label htmlFor='raison'>Je vous contacte parce que...
-                      <select
+                    <label htmlFor='raison'>Je vous contacte parce que
+                    < select
                         id="raison"
                         onChange={handleOnChange}
-                        value={inputs.optionsraison}
-                        >
-                          {optionsraison.map((optionsraison) => (
-                            <option key={optionsraison.value} value={optionsraison.value}>{optionsraison.label}</option>
-                          ))}
-                      </select>
+                         >
+                        <option value="J'ai une question à vous poser">J'ai une question à vous poser</option>
+                        <option value="Bill Gates vous a recommandé">Bill Gates vous a recommandé</option>
+                        <option value="Je fais une crise de nerf">Je fais une crise de nerf</option>
+                    </select >
                       </label>
                     </div>
 
                     <div className={styles.formgroup}>
-                        <label htmlFor="name">Mon nom est...</label>
+                        <label htmlFor="name">Mon nom est</label>
                         <input
                             id="name"
                             type="text"
@@ -118,41 +105,78 @@ const handleOnSubmit = async (e) => {
                         />
                     </div>
 
-                        <label htmlFor="email">Email</label>
+                    <div className={styles.formgroup}>
+                        <label htmlFor="email">Vous pouvez me répondre via</label>
                         <input
                             className="block w-full p-2 bg-gray-800 border border-white focus:outline-none"
                             id="email"
                             type="email"
                             onChange={handleOnChange}
                             required
-                            placeholder="your@email.com"
+                            placeholder="mon email, pigeon voyageur..."
                             value={inputs.email}
                         />
                     </div>
+
+                    <div className={styles.formgroup}>
+                    <label htmlFor='promesse'>Tant que vous promettez de ne pas
+                    < select
+                        id="promesse"
+                        onChange={handleOnChange}
+                         >
+                        <option value="Répondre avec un faux accent anglais">Répondre avec un faux accent anglais</option>
+                        <option value="Donner mon email à satan">Donner mon email à satan</option>
+                        <option value="ECRIRE TOUT EN CAPITALES">ECRIRE TOUT EN CAPITALES</option>
+                    </select >
+                      </label>
+                    </div>
                     
-                    <div className="mt-10">
-                        <label htmlFor="message">Message</label>
+                    <div className={styles.formgroup}>
+                        <label htmlFor="message">Ce que je veux vous dire c'est</label>
                         <textarea
                             className="block w-full p-2 bg-gray-800 border border-white focus:outline-none"
                             id="message"
                             onChange={handleOnChange}
                             required
-                            rows="10"
+                            rows="5"
                             value={inputs.message}
-                            placeholder="Your message..."
+                            placeholder="ça"
                         />
                     </div>
+
+                    <div className={styles.formgroup}>
+                    <label htmlFor='salutation'>Merci !
+                    < select
+                        id="salutation"
+                        onChange={handleOnChange}
+                         >
+                        <option value="High five !">High five !</option>
+                        <option value="Check">Check</option>
+                        <option value="Bisous">Bisous</option>
+                        <option value="Révérence">Révérence</option>
+                        <option value="Poutous">Poutous</option>
+                        <option value="Clin d'oeil">Clin d'oeil</option>
+                        <option value="Grognement indistinct">Grognement indistinct</option>
+                        
+                    </select >
+                      </label>
+                    </div>
+                    
+
                     <button
-                        className="mt-10 py-2 px-4 border-2 border-white text-white uppercase text-sm tracking-24 bg-transparent hover:bg-white hover:text-gray-900 transition duration-150 ease-in-out"
                         type="submit"
+                        className={styles.button}                       
                         disabled={status.submitting}
                     >
                         {!status.submitting
                             ? !status.submitted
-                                ? 'Submit'
-                                : 'Submitted'
-                            : 'Submitting...'}
+                                ? 'Envoyer'
+                                : 'Bien reçu'
+                                : '...'}
                     </button>
+
+                    <div className={styles.clear}></div>
+
                     <div className="mt-4">
                         {status.info.error && (
                             <div className="error">
@@ -163,6 +187,10 @@ const handleOnSubmit = async (e) => {
                             <div className="success">{status.info.msg}</div>
                         )}
                     </div>
+
+                    <p className={styles.rgpd}>En envoyant votre message, 
+                    vous acceptez notre <Link href="/confidentialite" target="_blank"><a>politique de confidentialité</a></Link> (pas de mauvaises surprises, promis)</p>
+                    
                 </form>
                 </div>
         </>

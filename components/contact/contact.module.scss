@@ -50,8 +50,6 @@
       }
     }
     .radiobutton {
-      display: flex;
-      justify-content: flex-start;
       .radio-button {
         margin-right: 0.5rem;
       }
@@ -62,7 +60,7 @@
   }
 }
 .button {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   position: relative;
   float: right;
   padding: 1rem 2rem;
@@ -75,31 +73,23 @@
   overflow: hidden;
   border: none;
   cursor: pointer;
-  &:before {
-    content: '';
-    display: block;
-    position: absolute;
-    background-color: $pink;
+  transition: all 0.4s;
+    &:hover {
+    background: $pink;
+    transform: translateY(-4px);
   }
   span {
     position: relative;
     z-index: 1;
   }
 }
-.btn2 {
-  transition: all 0.4s;
-  &:before {
-    top: 50%;
-    left: 50%;
-    width: 200%;
-    height: 0;
-    transform: translate3d(-50%, -50%, 0) rotate(45deg);
-    transition: all 0.45s;
-  }
-  &:hover {
-    color: $white;
-    &:before {
-      height: 400%;
-    }
+.clear {
+  clear: both;
+}
+.rgpd {
+  margin-top:1rem;
+  font-size: 0.9rem;
+  a{
+    color:$darkblue;
   }
 }
