@@ -23,9 +23,6 @@ export default function MentionsLegales() {
 
             <div className="grid px10 py5">
                 <div className="colonne">
-                <p>Responsable de la publication &amp; 
-                    développement du site : Mélanie Bezot-Trottet<br />
-                    </p>
                     <p>&nbsp;</p>
                     <h2>Propriétaire du site</h2>
                         <p><strong>Oh My Frog EURL</strong>,<br /> 
@@ -46,6 +43,10 @@ export default function MentionsLegales() {
                         Tel : +41 22 820 35 44</p>
                 </div>
                 <div className="colonne">
+                <p><strong>Responsable de la publication &amp; 
+                    développement du site :</strong>&nbsp;Mélanie Bezot-Trottet
+                    </p>
+                    <p>&nbsp;</p>
                 <p>L’ensemble des informations contenues sur ce site sont fournies “en l’état”, 
                         sans aucune garantie. L’utilisateur devra s’assurer de l’exactitude des informations 
                         contenues sur ce site auprès du propriétaire du site, notamment celles relatives aux produits, 

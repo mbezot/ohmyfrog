@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import AccordionMarketing from '../components/accordion-marketing'
+import AccordionMarketing from '../components/accordions/accordion-marketing'
 import Clients from '../components/customers'
+import Cta2 from '../components/cta/cta2'
 import React, { useRef } from "react";
 
 export default function MarketingDigital() {
@@ -48,49 +49,61 @@ export default function MarketingDigital() {
 
         <div className="sp7"></div>
 
+
+
         <div className="grid px10 pb0">
             <div className="colonne">
                 <h2>Le parcours client</h2>
-                <p className="leadL">Nous relions précisément chaque tactique à chaque étape 
+                <p className="leadM">Nous relions précisément chaque tactique à chaque étape 
                 du parcours client, pour convertir vos visiteurs en ambassadeurs de votre marque.</p>
                 <p>&nbsp;</p>
             </div>
         </div>
 
-        <div className="grid px10">
-            <div className="colonne">
-                <div className="iconcard bgdarkblue">
-                    <div className="number txtwhite">01</div>
-                    <span>&nbsp;</span>
-                    <h3 className="txtwhite">Attirer</h3>
-                    <p className="txtwhite">Attirer les visiteurs à l'aide de votre site web, réseaux sociaux, SEO, emailings, vidéos, campagnes de publicité, influenceurs...</p>     
-                </div>
+        <div className="px10">
+        <div className="wrapper">
+            
+        <article className="card2 bgdarkblue txtwhite">
+            <div className="card2__content txtwhite">
+                <div className="number">01</div>
+                <h3>Attirer</h3>
+                <p>Attirer les visiteurs à l'aide de votre site web, réseaux sociaux, SEO, 
+                    emailings, vidéos, campagnes de publicité, influenceurs...</p>     
             </div>
-            <div className="colonne">
-                <div className="iconcard bgpink">
-                    <div className="number">02</div>
-                    <span>&nbsp;</span>
-                    <h3>Convertir</h3>
-                    <p>Convertir les visiteurs en prospects, en utilisant le marketing de contenu, les landing pages, demandes de devis, chat...</p>     
-                </div>
+        </article>
+        
+
+        <article className="card2 bgpink">
+            <div className="card2__content">
+                <div className="number">02</div>
+                <h3>Convertir</h3>
+                <p>Convertir les visiteurs en prospects, en utilisant le marketing de contenu, 
+                    les landing pages, demandes de devis, chat...</p>     
             </div>
-            <div className="colonne">
-                <div className="iconcard bgyellow">
-                    <div className="number ">03</div>
-                    <span>&nbsp;</span>
-                    <h3>Vendre</h3>
-                    <p>Transformer les visiteurs en clients grâce aux notes et avis consommateurs, comparateurs de produits, liste de prix, promotions, CRM, retargeting, emails auto text-centermatisés...</p>     
-                </div>
+        </article>
+
+        <article className="card2 bgyellow">
+            <div className="card2__content">
+                <div className="number">03</div>
+                <h3>Vendre</h3>
+                <p>Transformer les visiteurs en clients grâce aux notes et avis consommateurs, 
+                    comparateurs de produits, liste de prix, promotions, CRM, 
+                    retargeting, emails auto text-centermatisés...</p>     
             </div>
-            <div className="colonne">
-                <div className="iconcard bggreen">
-                    <div className="number ">04</div>
-                    <span>&nbsp;</span>
-                    <h3>Fidéliser</h3>
-                    <p>Faire de vos clients des ambassadeurs en utilisant les parrainages, success-stories, ventes privées, cartes de fidélité, enquêtes, sondages, newsletters...</p>     
-                </div>
+        </article>
+
+        <article className="card2 bggreen">
+            <div className="card2__content">
+                <div className="number">04</div>
+                <h3>Fidéliser</h3>
+                <p>Faire de vos clients des ambassadeurs en utilisant les parrainages, 
+                    success-stories, ventes privées, cartes de fidélité, 
+                    enquêtes, sondages, newsletters...</p>     
             </div>
-        </div>
+        </article>
+
+      </div>
+    </div>
 
         <div className="sp7"></div>
 
@@ -98,42 +111,35 @@ export default function MarketingDigital() {
 
         <div className="sp7"></div>
 
-        <div className="grid px20 pb0">
-        <div className="colonne">
-            <div className="cta">
-                <div className="ctacontent bgyellow">
-                    <h3>Nous sommes l’alternative aux agences généralistes</h3>
-                </div>
-                <div className="ctacontent bgpink">
-                <p className="txtwhite lineheigt2">Une petite équipe d'experts, un accompagnement personnalisé, une bonne humeur contagieuse. C’est nous.</p>
-                </div>
-            </div>
-        </div>
-        </div>
+        <Cta2 />
 
         <div className="sp7"></div>
 
         <Clients />
 
         <div className="sp7"></div>
-        
-        <div className="grid bglightgrey px10 pt7 pb7">
-        <div className="colonne">
-                <div className="iconcard bgyellow">
-                    <div className="number">+260%<span className="numbernormal"> leads</span></div>
-                    <p>pour <strong>Chabanel Montélimar </strong>
+
+        <div className="px10 bglightgrey pt7 pb7">
+        <div className="wrapper">
+            
+        <article className="card2 bgyellow">
+            <div className="card2__content">
+                <div className="number">+260%<span className="numbernormal"> leads</span></div>
+                <p>pour <strong>Chabanel Montélimar </strong>
                     après l’optimisation des lading pages du site par Oh My Frog</p>
                     <div className="bottom right">
                             <a className="btn-plus" href="https://www.chabanel-montelimar.fr/" target="_blank">
                             <div>Voir le site</div>
                             <div className="plus">+</div>
                             </a>
-                    </div>     
-                </div>
+                    </div>          
             </div>
-            <div className="colonne">
-                <div className="iconcard bgyellow">
-                    <div className="number">+550%<span className="numbernormal"> leads</span></div>
+        </article>
+        
+
+        <article className="card2 bgyellow">
+            <div className="card2__content">
+            <div className="number">+550%<span className="numbernormal"> leads</span></div>
                     <p>pour <strong>Stores Habit’Alp</strong> après la refonte complète du site par Oh My Frog</p>     
                     <div className="bottom right">
                             <a className="btn-plus" href="https://www.storeshabitalp.fr/" target="_blank">
@@ -141,11 +147,12 @@ export default function MarketingDigital() {
                             <div className="plus">+</div>
                             </a>
                     </div> 
-                    </div>
             </div>
-            <div className="colonne">
-                <div className="iconcard bgyellow">
-                    <div className="number">+800%<span className="numbernormal"> leads</span></div>
+        </article>
+
+        <article className="card2 bgyellow">
+            <div className="card2__content">
+            <div className="number">+800%<span className="numbernormal"> leads</span></div>
                     <p>pour <strong>StedBis </strong>
                     après la refonte complète du site par Oh My Frog</p>     
                     <div className="bottom right">
@@ -154,10 +161,14 @@ export default function MarketingDigital() {
                             <div className="plus">+</div>
                             </a>
                     </div> 
-                    </div>
             </div>
-        </div>
-        </main>
+        </article>
+
+      </div>
+    </div>
+
+        
+</main>
         </>
     )
 }

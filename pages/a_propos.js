@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Services from '../components/services'
+import Cta2 from '../components/cta/cta2'
 import React, { useRef } from "react";
 
 export default function apropos() {
@@ -36,7 +37,7 @@ export default function apropos() {
             <ul className="accordion acctext">
 			<li>
 				<input type="checkbox" id="histoire"/>
-				<label htmlFor="histoire">*et on adore raconter l’histoire de la Grenouille à Grande Bouche<i className="icon-chevron-down"></i></label>
+				<label htmlFor="histoire">*et acessoirement, on adore raconter l’histoire de la Grenouille à Grande Bouche<i className="icon-chevron-down"></i></label>
 				<section>
                 <p>Il était une fois une grenouille à grande bouche qui se baladait dans la forêt. 
                     En chemin, elle rencontre un lapin et lui demande :</p>
@@ -83,26 +84,70 @@ export default function apropos() {
 
         <div className="sp7"></div>
 
-        <div className="grid px20">
-        <div className="colonne">
-            <h2>Derrière la grenouille</h2>
-            <p>“Je déteste l’odeur du patchouli, les selfies la bouche en canard, 
-                les gens qui disent “sans vouloir vous offenser”, 
-                les leggins couleur chair et les vidéos de chats. 
-                J’adore les orages en été, les boucles d’oreilles extravagantes, 
-                bouquiner au coin du feu, cuisiner des recettes bizarres 
-                et boire un verre en terrasse”</p>
-                <p>&nbsp;</p>
-            <p>&mdash; Mélanie Bezot-Trottet, Fondateur</p>
-            <p>&nbsp;</p>
-            <div className="left"><Image src="/images/frog.svg" 
-                alt="Oh My Frog" 
-                width={100} height={100} />
+        <div className="px10">
+            <div className="wrapper">
+                <h2>Voici le deal</h2>
             </div>
-        </div>
+            <div className="wrapper">
+                <div className="card2__content bglightgrey"><p>Chez Oh My Frog, nous avons aidé des dizaines de clients 
+                    à faire passer leur entreprise d'une idée à une marque 
+                    florissante. Notre petite et puissante équipe d'indépendants, 
+                    designers, stratèges, rédacteurs, photographes et vidéastes 
+                    se charge de projets aussi variés que l'identité de marque, 
+                    la stratégie marketing, en passant par la conception de sites web 
+                    et bien plus encore.</p></div>
+                <div className="card2__content bglightgrey"><p>Nous n'avons pas l'habitude de prendre les choses à 
+                    la légère, et c'est pareil dans notre travail. 
+                    Nous vivons pour repousser les limites de la créativité,
+                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis !
+                    C'est notre truc depuis 2017, et bon sang, on adore notre travail.</p></div>
+            </div>
         </div>
 
         <div className="sp7"></div>
+
+        <div className="px10 bggreen">
+
+        <div className="sp7"></div>
+        <h2>C'est notre histoire</h2>
+
+            <div className="wrapper">
+                <div className="card2__content">
+                    <h4>2011-2017</h4>
+                    <p>Lancer un blog. Jouer avec le design. Gagner un premier client 
+                        pour la conception d'un site. 
+                        Créer <a href="https://frogposters.com/" target="_blank">des affiches</a>&nbsp; 
+                        pour le plaisir.
+                        Comprendre Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
+                        Reprendre le rythme. Suivre un cours de HTML et CSS. </p>
+                </div>
+                <div className="card2__content">
+                    <h4>2018</h4>
+                    <p>Affiner sa connaissance des techniques marketing et de pub en ligne. Se former à l'inbound. 
+                        Construire des méthodologies.
+                    </p>
+                </div>
+                <div className="card2__content">
+                    <h4>2019</h4>
+                    <p>Commencer à réfléchir à un plan pour faire quelque chose de mieux et de plus grand.
+                        Ajouter l'animation des réseaux sociaux au menu des services. 
+                        Quitter mon job de responsable marketing. Déménager en Provence. Lancer Oh My Frog.</p>
+                </div>
+                <div className="card2__content">
+                    <h4>2020</h4>
+                    <p>Le monde s'écroule en mars. Adopter la technique du "pivot", 
+                        ne pas faire de pause et aider les clients à se développer 
+                        malgré une pandémie mondiale... Et en profiter pour se former au développement web.</p>
+                </div>
+                <div className="card2__content">
+                    <h4>2021</h4>
+                    <p>De grands objectifs et de grands rêves, et une belle croissance à venir ;) </p>
+                </div>
+            </div>
+
+            <div className="sp7"></div>
+
+        </div>
 
         <div className="grid px10 bgdarkblue pt7 pb7">
         <div className="colonne txtwhite">
@@ -112,24 +157,29 @@ export default function apropos() {
                 C’est le moment de développer votre présence en ligne, et de faire la différence 
                 face à vos concurrents.</p>
             <p>Oh My Frog vous accompagne pour vous aider à tirer votre épingle du jeu dans 
-                l’univers digital. Il faut que votre marque soit visible, irrésistible, inoubliable !</p>
+                l’univers digital. Il faut que votre marque soit visible, irrésistible, inoubliable.</p>
         </div>
         <div className="colonne">
-            <div className="flexgridparent txtwhite">
-                <div className="flexgridchild bggreen certification">
-                <div className="left"><Image src="/images/google-ads.svg" 
-                alt="Certifications Google Ads" 
-                width={100} height={100} />
+
+        <div className="wrapper">
+
+        <article className="card2 bggreen">
+            <div className="card2__content">
+                <div className="left">
+                    <Image src="/images/google-ads.svg" 
+                    alt="Certifications Google Ads" 
+                    width={100} height={100} />
                 </div>
                 <h3>Certifications Google Ads</h3>
                     <p>Publicité sur le réseau de Recherche <br />
                     Publicité sur le réseau Display<br />
                     Annonces Shopping</p>
-                </div>
             </div>
-            <div className="flexgridparent">
-                <div className="flexgridchild bgyellow certification">
-                    <div className="left"><Image src="/images/hubspot-academy.svg" 
+        </article>
+
+        <article className="card2 bgyellow">
+            <div className="card2__content">
+                <div className="left"><Image src="/images/hubspot-academy.svg" 
                     alt="Certifications HubSpot" 
                     width={100} height={100} />
                     </div>
@@ -138,8 +188,10 @@ export default function apropos() {
                         Growth-Driven Design<br />
                         Email Marketing</p>
                 </div>
-            </div>
+        </article>
+
         </div>
+    </div>
         </div>
 
         <div className="sp7"></div>
@@ -156,22 +208,30 @@ export default function apropos() {
 
         <div className="sp7"></div>
 
-        <div className="grid px20">
-        <div className="colonne">
-            <div className="cta">
-                <div className="ctacontent bgyellow">
-                    <h3>Nous sommes l’alternative aux agences généralistes</h3>
-                </div>
-                <div className="ctacontent bgpink">
-                <p className="txtwhite lineheigt2">Une petite équipe d'experts, un accompagnement personnalisé, une bonne humeur contagieuse. C’est nous.</p>
-                </div>
+        <div className="px20">
+        <div className="wrapper">
+            <div>
+                <h2>Le mot du fondateur</h2>
+                <Image src="/images/frog.svg" 
+                alt="Oh My Frog" 
+                width={100} height={100} />
+            </div>
+            <div>
+                <p><i>“Je déteste l’odeur du patchouli, les selfies la bouche en canard, 
+                les gens qui disent “sans vouloir vous offenser”, 
+                les leggins couleur chair et les vidéos de chats. 
+                J’adore les orages en été, les boucles d’oreilles extravagantes, 
+                bouquiner au coin du feu, cuisiner des recettes bizarres 
+                et boire un verre en terrasse”</i></p>
+                <p>&nbsp;</p>
+                <p>&mdash; Mélanie Bezot-Trottet</p>
             </div>
         </div>
         </div>
 
         <div className="sp7"></div>
 
-        </main>
+    </main>
 
         </>
     )

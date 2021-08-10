@@ -1,6 +1,7 @@
 import styles from './contactform.module.scss'
 import { useState } from 'react'
 
+
 const ContactForm = () => {
 
     const [raison, setRaison] = useState('')
@@ -47,7 +48,6 @@ const ContactForm = () => {
                 setRgpd('')
             }
         })
-
         
       }
  

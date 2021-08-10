@@ -33,9 +33,9 @@ export default function Home({ allPostsData }) {
 <main className="grid-wrap">
 <div className="grid bggreen hero px10">
   <div className="colonne">
-    <h1 className="pb3">Oh My FroG</h1>
+    <h1 className="txtwhite">Oh My FroG</h1>
     <h2 className="leadXL pb5">
-      <span className="txtyellow">Agence de marketing digital</span> agile, 
+      <span className="txtwhite">Agence de marketing digital</span> agile, 
       honnête, qui bosse dur, qui aime s’éclater et qui pétille d’idées 
       fraîches pour votre business.</h2>
 
@@ -58,11 +58,12 @@ export default function Home({ allPostsData }) {
   </div>
   <div className="lottiehome">
   <lottie-player
+  Scale="5"
     id="homelottie" ref={ref}
     autoplay loop 
     mode="normal"
     src="./images/lotties/homehero2.json"
-    style={{ width: "1000", height: "1000" }}
+    style={{ width: "120vw", height: "100vh" }}
         ></lottie-player>
   </div>
 </div>
@@ -70,42 +71,39 @@ export default function Home({ allPostsData }) {
 
 <div className="sp7"></div>
 
-<div className="grid px10">
-<div className="colonne">
-  <div className="imagecard">
-      <div className="card-image">
-        <Image src="/images/that-would-be-great-800x400.jpg" 
-          alt="Ça ne marche plus aussi bien qu'avant" 
-          width={600} height={300} />
-      </div>
-      <div className="card-content bgyellow">
-        <h3>Ça ne marche plus aussi bien qu'avant</h3>
-        <p>Vos campagnes d’encarts presse, d’affichage, de pages jaunes ne sont plus aussi 
-          performantes qu’avant. Pendant ce temps, vos concurrents progressent, 
-          et vous prennent des parts de marché.</p>
-          <div className="right bottom">
+
+<div className="px10">
+        <div className="wrapper">
+            
+       <article className="card2 bgyellow">
+            <Image src="/images/that-would-be-great-800x400.jpg" 
+            alt="Ça ne marche plus aussi bien qu'avant" 
+            width={600} height={300} />
+        <div className="card2__content">
+            <h3>Ça ne marche plus aussi bien qu'avant</h3>
+            <p>Vos campagnes d’encarts presse, d’affichage, de pages jaunes ne 
+              sont plus aussi performantes qu’avant. Pendant ce temps, 
+              vos concurrents progressent, et vous prennent des parts de marché.</p>       
+            <div className="right bottom">
             <Link href="/marketing_digital">
               <a className="btn-plus">
               <div>On a de meilleures solutions</div>
                 <div className="plus">+</div>
               </a>
             </Link>
-          </div>
-      </div>
-    </div>
-</div>
-  <div className="colonne">
-    <div className="imagecard">
-        <div className="card-image">
-          <Image src="/images/math-lady-800x400.jpg" 
+            </div>
+        </div>
+        </article>
+
+        <article className="card2 bgyellow">
+            <Image src="/images/math-lady-800x400.jpg" 
             alt="Vous manquez de temps ou de savoir-faire" 
             width={600} height={300} />
-        </div>
-        <div className="card-content bgyellow">
-          <h3>Vous manquez de temps ou de savoir-faire</h3>
-          <p>On vous parle de digital, mais vous ne savez pas par quoi commencer. 
-            Vous avez mis en place en des actions qui manquent d’efficacité, 
-            et vous manquez de temps pour les optimiser.</p>
+            <div className="card2__content">
+            <h3>Vous manquez de temps ou de savoir-faire</h3>
+            <p>On vous parle de digital, mais vous ne savez pas par quoi commencer. 
+              Vous avez mis en place en des actions qui manquent d’efficacité, 
+              et vous manquez de temps pour les optimiser.</p>
             <div className="right bottom">
               <Link href="/strategie_digitale">
                 <a className="btn-plus">
@@ -114,21 +112,15 @@ export default function Home({ allPostsData }) {
                 </a>
               </Link>
             </div>
-        </div>
-      </div>
-  </div>
-</div>
+            </div>
+        </article>
 
-<div className="grid px10">
-  <div className="colonne">
-    <div className="imagecard">
-        <div className="card-image">
-          <Image src="/images/confused-travolta-800x400.jpg" 
+        <article className="card2 bgyellow">
+            <Image src="/images/confused-travolta-800x400.jpg" 
             alt="On ne vous trouve pas dans Google" 
             width={600} height={300} />
-        </div>
-        <div className="card-content bgyellow">
-          <h3>On ne vous trouve pas dans Google</h3>
+            <div className="card2__content">
+            <h3>On ne vous trouve pas dans Google</h3>
           <p>Votre site web est mal référencé et obsolète, il ne reflète plus votre 
             marque et votre savoir-faire ? Pourtant aujourd’hui, 80% de vos clients 
             potentiels cherchent en ligne avant de trouver un produit ou un service.</p>
@@ -140,18 +132,15 @@ export default function Home({ allPostsData }) {
                 </a>
               </Link>
             </div>
-        </div>
-    </div>
-  </div>
-  <div className="colonne">
-    <div className="imagecard">
-        <div className="card-image">
-          <Image src="/images/suspicious-leonardo-800x400.jpg" 
+            </div>
+        </article>
+
+        <article className="card2 bgyellow">
+            <Image src="/images/suspicious-leonardo-800x400.jpg" 
             alt="Vous n'avez pas confiance" 
             width={600} height={300} />
-        </div>
-        <div className="card-content bgyellow">
-          <h3>Vous n'avez pas confiance</h3>
+            <div className="card2__content">
+            <h3>Vous n'avez pas confiance</h3>
           <p>Il vous manque une vraie stratégie pour coordonner votre site, 
             votre communication, votre marketing, mais vous ne savez pas à 
             qui vous adresser ? Comment être sûr de ne pas se tromper d’agence ?</p>
@@ -163,10 +152,11 @@ export default function Home({ allPostsData }) {
                 </a>
               </Link>
             </div>
-        </div>
+            </div>
+        </article>
+
+      </div>
     </div>
-  </div>
-</div>
 
 <div className="sp7"></div>
 

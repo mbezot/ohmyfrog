@@ -24,14 +24,20 @@
 }
 a.btn-plus {
   color: $darkblue;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0;
   transition: 0.2s transform ease-out;
+  margin-top:1rem;
+  text-decoration: none;
+  font-weight: bold;
   &:hover {
     color: $white;
     transform: scale(1.1);
   }
 }
-
+div.card2__content > div > a {
+  text-decoration: none;
+  font-weight: bold;
+}
 //coolbeans
 .coolBeans {
   border: none;

@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import AccordionStrategy from '../components/accordion-strategy'
+import AccordionStrategy from '../components/accordions/accordion-strategy'
 import Clients from '../components/customers'
 import Temoignages from '../components/temoignages'
+import Cta1 from '../components/cta/cta1'
 import React, { useRef } from "react";
 
 export default function StrategieDigitale() {
@@ -89,72 +90,76 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
         <div className="grid px10">
             <div className="colonne">
                 <h2>Les livrables</h2>
-                <p className="leadL">A l'issue de votre plan stratégique, 
+                <p className="leadM">A l'issue de votre plan stratégique, 
                 nous vous remettons un rapport d'audit, un plan de communication stratégique 
                 ainsi que des tableaux de bord pour suivre vos KPI</p>
                 <p>&nbsp;</p>
             </div>
         </div>
 
-        <div className="grid px10 pb7">
-  <div className="colonne">
-    <div className="iconcard bggreen">
-          <div className="cardicon">
-            <Image src="/images/icons/icon-sablier.svg" 
-              alt="Audit marketing"
-              width={80} height={80} />
-          </div>
-            <span>&nbsp;</span>
-            <h3 className="txtwhite">Rapport d'Audit</h3>
-            <p className="txtwhite">Le rapport d'audit présente l'analyse de votre site web, de votre référencement, de vos réseaux sociaux, et de la génération de leads. Les préconisations seront un guide pour bien démarrer et corriger le cap actuel.</p>     
-    </div>
-  </div>
-  <div className="colonne">
-  <div className="iconcard bggreen">
-          <div className="cardicon">
-            <Image src="/images/icons/icon-double-rond.svg" 
-              alt="Création de sites web"
-              width={80} height={80} />
-          </div>
-          <span>&nbsp;</span>
-          <h3 className="txtwhite">Tableaux de bord</h3>
-          <p className="txtwhite">Les tableaux de bord vous permettront de suivre chaque mois les indicateurs de performance. Vous aurez une vision claire de votre situation et de son évolution dans le temps.</p>
-    </div>
-  </div>
-  <div className="colonne">
-  <div className="iconcard bggreen">
-          <div className="cardicon">
-            <Image src="/images/icons/icon-bols.svg" 
-              alt="Marketing digital"
-              width={80} height={80} />
-          </div>
-          <span>&nbsp;</span>
-          <h3 className="txtwhite">Plan de communication</h3>
-          <p className="txtwhite">Le plan de communication stratégique reprend les préconisations de l'audit, décrit vos personas, et détaille pour chaque cible les messages à mettre en avant, et les canaux de communication les plus performants.</p>
-    </div>
-  </div>
-</div>
-<div className="grid px20 pb0">
-        <div className="colonne">
-            <div className="cta">
-                <div className="ctacontent bgyellow">
-                    <h3>Nous ne sommes pas des voyageurs intergalactiques...</h3>
+        <div className="px10">
+        <div className="wrapper">
+            
+       <article className="card2 bggreen">
+            <div className="card2__content">
+                <div className="left">
+                    <Image src="/images/icons/icon-sablier.svg" 
+                    alt="Rapport d'Audit" 
+                    width={80} height={80} />
                 </div>
-                <div className="ctacontent bgpink">
-                <p className="txtwhite lineheigt2">Mais nous n’hésiterons pas à faire le 
-                petit pas supplémentaire qui vous permettra de décrocher la lune.</p>
-                </div>
+                <h3>Rapport d'Audit</h3>
+                <p>Le rapport d'audit présente l'analyse de votre site web, de votre référencement, 
+                    de vos réseaux sociaux, et de la génération de leads. Les préconisations seront 
+                    un guide pour bien démarrer et corriger le cap actuel.</p>       
             </div>
-        </div>
-        </div>
+        </article>
 
-        <div className="sp7"></div>
+        <article className="card2 bggreen">
+            <div className="card2__content">
+                <div className="left">
+                    <Image src="/images/icons/icon-double-rond.svg" 
+                    alt="Tableaux de bord" 
+                    width={80} height={80} />
+                </div>
+                <h3>Tableaux de bord</h3>
+                <p>Les tableaux de bord vous permettront de suivre chaque mois les 
+                    indicateurs de performance. Vous aurez une vision claire de votre 
+                    situation et de son évolution dans le temps.</p>       
+            </div>
+        </article>
 
-<Clients />
-<div className="sp7"></div>
-<Temoignages />
-<div className="sp7"></div>
-        </main>
+        <article className="card2 bggreen">
+            <div className="card2__content">
+                <div className="left">
+                    <Image src="/images/icons/icon-bols.svg" 
+                    alt="Plan de communication" 
+                    width={80} height={80} />
+                </div>
+                <h3>Plan de communication</h3>
+                <p>Le plan de communication stratégique reprend les préconisations 
+                    de l'audit, décrit vos personas, et détaille pour chaque cible 
+                    les messages à mettre en avant, et les canaux de communication les plus performants.</p>       
+            </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div className="sp7"></div>
+
+    <Cta1 />
+
+    <div className="sp7"></div>
+
+    <Clients />
+
+    <div className="sp7"></div>
+    
+    <Temoignages />
+    
+    <div className="sp7"></div>
+
+</main>
 
         </>
     )

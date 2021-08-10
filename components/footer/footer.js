@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
-import ContactForm from '../components/contactform'
+import Contact from '../contact/contact'
+import ContactForm from './contactform';
 
 const Footer = () => {
 
@@ -43,7 +44,7 @@ const Footer = () => {
 
     <div className="grid footer px10">
         <div className="colonne">
-            <ContactForm/>
+            <Contact/>
         </div>
         <div className="colonne txtwhite m0">
             <h3>Oh My FrOG</h3>

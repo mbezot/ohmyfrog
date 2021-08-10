@@ -1,14 +1,16 @@
-@import '../styles/fonts.scss';
-@import '../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/colors.scss';
 
 //CONTACT FORM
 .container {
   display: flex;
   background-color: $white;
   flex-direction: column;
-  padding:3rem;
+  padding: 3rem;
 }
-.marge {margin:2rem 0 1.5rem 0;}
+.marge {
+  margin: 2rem 0 1.5rem 0;
+}
 .main {
   .formgroup {
     display: flex;
@@ -57,10 +59,10 @@
   }
 }
 .button {
-  margin-top:3rem;
+  margin-top: 3rem;
   position: relative;
-  float:right;
-  padding: 1rem 2rem; 
+  float: right;
+  padding: 1rem 2rem;
   background-color: $green;
   color: $white;
   text-transform: uppercase;
@@ -68,7 +70,7 @@
   letter-spacing: 0.1rem;
   text-decoration: none;
   overflow: hidden;
-  border:none;
+  border: none;
   cursor: pointer;
   &:before {
     content: '';
@@ -82,17 +84,19 @@
   }
 }
 .btn2 {
-  transition: all .4s;
+  transition: all 0.4s;
   &:before {
     top: 50%;
     left: 50%;
     width: 200%;
     height: 0;
     transform: translate3d(-50%, -50%, 0) rotate(45deg);
-    transition: all .45s;
+    transition: all 0.45s;
   }
   &:hover {
     color: $white;
-    &:before { height: 400%; }
+    &:before {
+      height: 400%;
+    }
   }
 }

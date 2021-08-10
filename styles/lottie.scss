@@ -2,10 +2,20 @@
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: -1rem;
-  right: -1.5rem;
+  bottom: -1.5rem;
+  right: -12%;
+  @media screen and (max-width: 1280px) {
+    right: -5%;
+    bottom: -2.5rem;
+  }
+  @media screen and (max-width: 1024px) {
+    bottom: -3.5rem;
+  }
   @media screen and (max-width: 768px) {
-    bottom: -1rem;
+    bottom: -15rem;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 }
 .lottiestrat {
@@ -14,8 +24,18 @@
   transition: all 1s ease 0s;
   right: -30rem;
   bottom: 17rem;
+  @media screen and (max-width: 1280px) {
+    right: -40%;
+    bottom: 17rem;
+  }
+  @media screen and (max-width: 1024px) {
+    bottom: 15rem;
+  }
   @media screen and (max-width: 768px) {
-    right: -20rem;
+    bottom: 18rem;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 }
 .lottiemarketing {
@@ -24,19 +44,36 @@
   right: -10rem;
   bottom: 9rem;
   transition: all 2s ease 0s;
+  @media screen and (max-width: 1280px) {
+    bottom: -9rem;
+  }
+  @media screen and (max-width: 1024px) {
+    bottom: -8rem;
+  }
   @media screen and (max-width: 768px) {
-    bottom: 4rem;
-    right: -13rem;
+    bottom: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 }
 .lottieweb {
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: -7rem;
-  right: -10rem;
+  bottom: -25%;
+  right: -50%;
+  @media screen and (max-width: 1280px) {
+    bottom: -15rem;
+  }
+  @media screen and (max-width: 1024px) {
+    bottom: -17rem;
+  }
   @media screen and (max-width: 768px) {
-    right: -23rem;
+    bottom: -19rem;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 }
 .lottieabout {

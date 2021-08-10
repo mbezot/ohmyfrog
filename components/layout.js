@@ -1,22 +1,12 @@
 import React, {useState} from 'react'
-import Footer from './footer'
-import Navbar from './navbar/navigation'
-import Dropdown from './navbar/dropdown'
-
-
+import Footer from './footer/footer'
+import Menu from './navbar/menu'
 
 const Layout = ({ children }) => {
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  };
-
   return (
     <div>
-      <Navbar toggle={toggle}/>
-      <Dropdown isOpen={isOpen} toggle={toggle}/>
+      <Menu/>
       <main>
           {children}
       </main>

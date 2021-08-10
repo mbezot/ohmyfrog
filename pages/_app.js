@@ -10,6 +10,7 @@ import '../styles/footer.scss'
 import '../styles/backgrounds-text-colors.scss'
 import '../styles/lottie.scss'
 import '../styles/navigation.css'
+import '../styles/menu.scss'
 
 function MyApp({ Component, pageProps }) {
 

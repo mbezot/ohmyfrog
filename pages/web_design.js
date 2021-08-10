@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import RealisationsWeb from '../components/realisationsweb'
-import AccordionWeb from '../components/accordion-web'
+import AccordionWeb from '../components/accordions/accordion-web'
+import Cta1 from '../components/cta/Cta1'
 import React, { useRef } from "react";
 
 
@@ -38,7 +39,7 @@ export default function WebDesign() {
                     autoplay
                     mode="normal"
                     src="./images/lotties/webdesign.json"
-                    style={{ width: "1000px", height: "1000px", bottom:"-20rem" }}>
+                    style={{ width: "150vw", height: "150vh" }}>
                 </lottie-player>
             </div>
         </div>
@@ -127,24 +128,12 @@ export default function WebDesign() {
 
         <div className="sp7"></div>
 
-        <div className="grid px20 pb0">
-        <div className="colonne">
-            <div className="cta">
-                <div className="ctacontent bgyellow">
-                    <h3>Nous ne sommes pas des voyageurs intergalactiques...</h3>
-                </div>
-                <div className="ctacontent bgpink">
-                <p className="txtwhite lineheigt2">Mais nous n’hésiterons pas à faire le 
-                petit pas supplémentaire qui vous permettra de décrocher la lune.</p>
-                </div>
-            </div>
-        </div>
-        </div>
+        <Cta1 />
 
         <div className="sp7"></div>
 
 
-        </main>
+</main>
         </>
     )
 }
