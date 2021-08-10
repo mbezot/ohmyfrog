@@ -32,8 +32,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  //align-items: center; /* centers items horizontally */
-  justify-content: center; /* centers items vertically */
+  //align-masonry-bricks: center; /* centers masonry-bricks horizontally */
+  justify-content: center; /* centers masonry-bricks vertically */
 }
 .hero2 {
   min-height: 70vh;
@@ -55,7 +55,7 @@ body {
 }
 .flexrowleft {
   display: flex;
-  align-items: center;
+  align-masonry-bricks: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 }

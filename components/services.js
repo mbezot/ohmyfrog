@@ -42,7 +42,7 @@ const Services = () => {
                 <p>Vous êtes fier de votre entreprise, vous allez être fier de votre site.
                     Nous faisons de votre site web votre vendeur numéro 1.</p>       
                 <div className="right bottom">
-                    <Link href="/web-design">
+                    <Link href="/web_design">
                         <a className="btn-plus">
                         <div>&nbsp;</div>
                         <div className="plus">+</div>
@@ -63,7 +63,7 @@ const Services = () => {
                 <p>Référencement, réseaux sociaux, landing pages, inbound marketing...
                 Vous allez enchaîner les leads comme Nadal enchaîne les coups droits.</p>       
                 <div className="right bottom">
-                    <Link href="/marketing-digital">
+                    <Link href="/marketing_digital">
                         <a className="btn-plus">
                         <div>&nbsp;</div>
                         <div className="plus">+</div>

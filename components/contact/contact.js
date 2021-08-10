@@ -99,21 +99,20 @@ const handleOnSubmit = async (e) => {
                             type="text"
                             autoComplete="name"
                             onChange={handleOnChange}
-                            required
                             value={inputs.name}
                             placeholder="Bond. James Bond."
                         />
                     </div>
 
                     <div className={styles.formgroup}>
-                        <label htmlFor="email">Vous pouvez me répondre via</label>
+                        <label htmlFor="email">Vous pouvez me répondre sur</label>
                         <input
                             className="block w-full p-2 bg-gray-800 border border-white focus:outline-none"
                             id="email"
                             type="email"
                             onChange={handleOnChange}
                             required
-                            placeholder="mon email, pigeon voyageur..."
+                            placeholder="mon email"
                             value={inputs.email}
                         />
                     </div>

@@ -123,7 +123,8 @@ export default function apropos() {
                 </div>
                 <div className="card2__content">
                     <h4>2018</h4>
-                    <p>Affiner sa connaissance des techniques marketing et de pub en ligne. Se former à l'inbound. 
+                    <p>Lancer une boutique en ligne. Affiner sa connaissance des 
+                        techniques marketing et de pub. Se former à l'inbound. 
                         Construire des méthodologies.
                     </p>
                 </div>

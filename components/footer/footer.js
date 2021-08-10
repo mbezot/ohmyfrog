@@ -8,29 +8,9 @@ const Footer = () => {
 <footer id="contact">
     <div className="grid footer px10 pt7">
         <div className="colonne txtwhite">
-            <h2 className="pb3 pl2 txtyellow">On fait équipe ?</h2>
-            <div className="rotating__container center">
-                <p className="rotating__container__text">
-                Vous êtes
-                </p>
-                <ul className="rotating__container__list">
-                <li className="rotating__container__list__item1">Starsky</li>
-                <li className="rotating__container__list__item1">BigFlo</li>
-                <li className="rotating__container__list__item1">Batman</li>
-                <li className="rotating__container__list__item1">Mario</li>
-                </ul>
-            </div>
-            <div className="rotating__container">
-                <p className="rotating__container__text">
-                Nous sommes
-                </p>
-                <ul className="rotating__container__list">
-                <li className="rotating__container__list__item2">Hutch</li>
-                <li className="rotating__container__list__item2">Oli</li>
-                <li className="rotating__container__list__item2">Robin</li>
-                <li className="rotating__container__list__item2">Luigi</li>
-                </ul>
-            </div>
+
+            <h2 className="leadXXL txtyellow">On fait équipe ?</h2>
+            
         </div>
     </div>
 
@@ -38,9 +18,9 @@ const Footer = () => {
         <div className="colonne">
             <Contact/>
         </div>
-        <div className="colonne txtwhite m0">
+        <div className="colonne txtwhite">
             <h3>Oh My FrOG</h3>
-            <p className="pb5">Oh My Frog est une agence marketing pour les PME perfusée au digital, agile, honnête, 
+            <p>Oh My Frog est une agence marketing pour les PME perfusée au digital, agile, honnête, 
                 qui bosse dur, qui aime s’éclater et qui pétille d’idées fraîches pour votre business.<br />
             Chez nous pas de jargon. On vous propose plutôt un vrai accompagnement et on vous 
                     explique tout : vous savez exactement ce qui fonctionne et pourquoi.<br />
@@ -66,7 +46,7 @@ const Footer = () => {
             <span>+33 (0)6 65 37 44 63</span>
             </div>
 
-            <div className="footericontext pb5">
+            <div className="footericontext">
                 <svg width="20" height="20" fill="#86bf58" 
                 viewBox="0 0 16 16">
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>

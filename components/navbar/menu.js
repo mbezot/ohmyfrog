@@ -63,10 +63,6 @@ const Menu = () => {
                             </li>
                             <li className='nav-item'>
                                 <Link onClick={closeMobileMenu} 
-                                className='nav-link' href='/portfolio'><a>Portfolio</a></Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} 
                                 className='nav-link' href='/a_propos'><a>A Propos</a></Link>
                             </li>
 

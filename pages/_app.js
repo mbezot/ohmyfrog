@@ -10,6 +10,7 @@ import '../styles/backgrounds-text-colors.scss'
 import '../styles/lottie.scss'
 import '../styles/menu.scss'
 
+
 function MyApp({ Component, pageProps }) {
 
   return (

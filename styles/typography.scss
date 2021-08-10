@@ -29,9 +29,12 @@ h4,
   margin-bottom: 1.5rem;
   margin-top: 2rem;
 }
-h1 {
-  font-size: 3.2rem;
-}
+h1, .leadXXL {
+    font-size: 5rem;
+  @media only screen and (max-width: 768px) {
+          font-size: 4rem;
+     }
+  }
 h2 {
   font-size: 2.5rem;
 }
@@ -105,3 +108,4 @@ a {
   color: $green;
   margin-top: 1.5rem;
 }
+li {margin-left:1rem;}
