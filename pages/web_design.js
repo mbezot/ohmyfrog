@@ -92,7 +92,7 @@ export default function WebDesign() {
                 <h3>Stratégie de contenu</h3>
                 <p>En collaboration avec votre équipe, nous déterminons quel 
                         contenu est nécessaire et utile pour votre site web, ainsi que 
-                        l'endroit où il doit être placé pour un impact maximal.</p>       
+                        l&apos;endroit où il doit être placé pour un impact maximal.</p>       
             </div>
             </article>
 
@@ -102,7 +102,7 @@ export default function WebDesign() {
                 <h3>Génération de leads</h3>
                 <p>Votre site ne doit pas simplement être beau. 
                     Il doit convertir vos visiteurs en prospects. Nous concevons toutes les 
-                    pages dans cette optique, à l'aide de Call to Action (CTA) et de landing pages.</p>       
+                    pages dans cette optique, à l&apos;aide de Call to Action (CTA) et de landing pages.</p>       
             </div>
             </article>
 

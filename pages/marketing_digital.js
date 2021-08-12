@@ -3,7 +3,7 @@ import Image from 'next/image'
 import AccordionMarketing from '../components/accordions/accordion-marketing'
 import Clients from '../components/customers'
 import Ctatwo from '../components/cta/ctatwo'
-import React, { useRef } from "react";
+import React, { useRef } from "react"
 
 export default function MarketingDigital() {
 
@@ -32,7 +32,7 @@ export default function MarketingDigital() {
             <h1>Marketing Digital</h1>
             <p className="leadL">Pour nous, le marketing digital se compose de quatre ingrédients : le bon message, les bonnes personnes, le bon média et le bon moment*.</p>
             <div className="pt5">
-                <p className="leadM">*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C'est là que nous intervenons.</p>
+                <p className="leadM">*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C&apos;est là que nous intervenons.</p>
             </div>
             <div className="lottiemarketing">
                 <lottie-player
@@ -67,7 +67,7 @@ export default function MarketingDigital() {
             <div className="card2__content txtwhite">
                 <div className="number">01</div>
                 <h3>Attirer</h3>
-                <p>Attirer les visiteurs à l'aide de votre site web, réseaux sociaux, SEO, 
+                <p>Attirer les visiteurs à l&apos;aide de votre site web, réseaux sociaux, SEO, 
                     emailings, vidéos, campagnes de publicité, influenceurs...</p>     
             </div>
         </article>

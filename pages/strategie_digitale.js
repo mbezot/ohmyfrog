@@ -5,7 +5,7 @@ import AccordionStrategy from '../components/accordions/accordion-strategy'
 import Clients from '../components/customers'
 import Temoignages from '../components/temoignages'
 import Ctaone from '../components/cta/ctaone'
-import React, { useRef } from "react";
+import React, { useRef } from "react"
 
 export default function StrategieDigitale() {
 
@@ -58,7 +58,7 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
                 <div className="numbercard">
                     <div className="number txtgreen">01</div>
                     <div>
-                        <p>Diagnostic de l'existant<br />
+                        <p>Diagnostic de l&apos;existant<br />
                         Définition des objectifs<br />
                         Mise en place des tableaux de bord</p>
                     </div>
@@ -90,8 +90,8 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
         <div className="grid px10">
             <div className="colonne">
                 <h2>Les livrables</h2>
-                <p className="leadM">A l'issue de votre plan stratégique, 
-                nous vous remettons un rapport d'audit, un plan de communication stratégique 
+                <p className="leadM">A l&apos;issue de votre plan stratégique, 
+                nous vous remettons un rapport d&apos;audit, un plan de communication stratégique 
                 ainsi que des tableaux de bord pour suivre vos KPI</p>
                 <p>&nbsp;</p>
             </div>
@@ -107,8 +107,8 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
                     alt="Rapport d'Audit" 
                     width={80} height={80} />
                 </div>
-                <h3>Rapport d'Audit</h3>
-                <p>Le rapport d'audit présente l'analyse de votre site web, de votre référencement, 
+                <h3>Rapport d&apos;Audit</h3>
+                <p>Le rapport d&apos;audit présente l&apos;analyse de votre site web, de votre référencement, 
                     de vos réseaux sociaux, et de la génération de leads. Les préconisations seront 
                     un guide pour bien démarrer et corriger le cap actuel.</p>       
             </div>
@@ -137,7 +137,7 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
                 </div>
                 <h3>Plan de communication</h3>
                 <p>Le plan de communication stratégique reprend les préconisations 
-                    de l'audit, décrit vos personas, et détaille pour chaque cible 
+                    de l&apos;audit, décrit vos personas, et détaille pour chaque cible 
                     les messages à mettre en avant, et les canaux de communication les plus performants.</p>       
             </div>
         </article>

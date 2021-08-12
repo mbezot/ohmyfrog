@@ -107,7 +107,7 @@ const onReCAPTCHAChange = (captchaCode) => {
                         id="raison"
                         onChange={handleOnChange}
                          >
-                        <option value="J'ai une question à vous poser">J'ai une question à vous poser</option>
+                        <option value="J'ai une question à vous poser">J&apos;ai une question à vous poser</option>
                         <option value="Bill Gates vous a recommandé">Bill Gates vous a recommandé</option>
                         <option value="Je fais une crise de nerf">Je fais une crise de nerf</option>
                     </select >
@@ -153,7 +153,7 @@ const onReCAPTCHAChange = (captchaCode) => {
                     </div>
                     
                     <div className={styles.formgroup}>
-                        <label htmlFor="message">Ce que je veux vous dire c'est</label>
+                        <label htmlFor="message">Ce que je veux vous dire c&apos;est</label>
                         <textarea
                             className="block w-full p-2 bg-gray-800 border border-white focus:outline-none"
                             id="message"
@@ -176,7 +176,7 @@ const onReCAPTCHAChange = (captchaCode) => {
                         <option value="Bisous">Bisous</option>
                         <option value="Révérence">Révérence</option>
                         <option value="Poutous">Poutous</option>
-                        <option value="Clin d'oeil">Clin d'oeil</option>
+                        <option value="Clin d'oeil">Clin d&apos;oeil</option>
                         <option value="Grognement indistinct">Grognement indistinct</option>
                         
                     </select >

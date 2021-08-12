@@ -79,7 +79,7 @@ export default function Home({ allPostsData }) {
             alt="Ça ne marche plus aussi bien qu'avant" 
             width={600} height={300} />
         <div className="card2__content">
-            <h3>Ça ne marche plus aussi bien qu'avant</h3>
+            <h3>Ça ne marche plus aussi bien qu&apos;avant</h3>
             <p>Vos campagnes d’encarts presse, d’affichage, de pages jaunes ne 
               sont plus aussi performantes qu’avant. Pendant ce temps, 
               vos concurrents progressent, et vous prennent des parts de marché.</p>       
@@ -121,7 +121,7 @@ export default function Home({ allPostsData }) {
             <div className="card2__content">
             <h3>On ne vous trouve pas dans Google</h3>
           <p>Votre site web est mal référencé et obsolète, il ne reflète plus votre 
-            marque et votre savoir-faire ? Pourtant aujourd’hui, 80% de vos clients 
+            marque et votre savoir-faire ? Pourtant aujourd&apos;hui, 80% de vos clients 
             potentiels cherchent en ligne avant de trouver un produit ou un service.</p>
             <div className="right bottom">
               <Link href="/web_design">
@@ -139,7 +139,7 @@ export default function Home({ allPostsData }) {
             alt="Vous n'avez pas confiance" 
             width={600} height={300} />
             <div className="card2__content">
-            <h3>Vous n'avez pas confiance</h3>
+            <h3>Vous n&apos;avez pas confiance</h3>
           <p>Il vous manque une vraie stratégie pour coordonner votre site, 
             votre communication, votre marketing, mais vous ne savez pas à 
             qui vous adresser ? Comment être sûr de ne pas se tromper d’agence ?</p>

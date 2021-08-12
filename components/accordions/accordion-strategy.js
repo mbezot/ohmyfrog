@@ -11,10 +11,10 @@ const AccordionStrategy = () => {
         <ul className="accordion accyellow">
 			<li>
 				<input type="checkbox" id="diagnostic"/>
-				<label htmlFor="diagnostic">Diagnostic de l'existant<i className="icon-chevron-down"></i></label>
+				<label htmlFor="diagnostic">Diagnostic de l&apos;existant<i className="icon-chevron-down"></i></label>
 				<section>
 					<p>Nous passons votre site, vos réseaux sociaux et votre stratégie digitale sur le grill.
-                        Nous examinons ce qui fonctionne et les points de vigilance, particulièrement en ce qui concerne la génération de leads, le référencement (SEO) et l’expérience utilisateurs. Nous vous remettons un rapport d'audit qui vous permet de savoir ce qui fonctionne et ce qu'il faut améliorer.</p>
+                        Nous examinons ce qui fonctionne et les points de vigilance, particulièrement en ce qui concerne la génération de leads, le référencement (SEO) et l’expérience utilisateurs. Nous vous remettons un rapport d&apos;audit qui vous permet de savoir ce qui fonctionne et ce qu&apos;il faut améliorer.</p>
 				</section>
 			</li>
 			<li>
@@ -52,12 +52,12 @@ const AccordionStrategy = () => {
 				<input type="checkbox" id="persona"/>
 				<label htmlFor="persona">Identification des cibles<i className="icon-chevron-down"></i></label>
 				<section>
-					<p>Nous allons dresser un portrait-robot de vos clients idéaux - nous les appelons les "personas". En général, il existe 3 personas par entreprise. Nous allons découvrir :</p>
+					<p>Nous allons dresser un portrait-robot de vos clients idéaux - nous les appelons les &quot;personas&quot;. En général, il existe 3 personas par entreprise. Nous allons découvrir :</p>
                     <ul className="continuoustext">
                         <li className="continuoustext">Leur âge, secteur géographique, CSP…</li>
                         <li className="continuoustext">Leurs besoins et motivations</li>
                         <li className="continuoustext">Leurs freins et objections</li>
-                        <li className="continuoustext">Les canaux de communication qu'ils préfèrent</li>
+                        <li className="continuoustext">Les canaux de communication qu&apos;ils préfèrent</li>
                     </ul>
                     <p>Pour créer ces personas, nous allons étudier vos statistiques de vente, et réaliser des interviews auprès de vos clients et collaborateurs.</p>
                 </section>
@@ -74,7 +74,7 @@ const AccordionStrategy = () => {
                         <li className="continuoustext">Appartenir à un groupe, obtenir un statut social</li>
                         <li className="continuoustext">Impressionner les autres, être reconnu, sortir du lot</li>
                         <li className="continuoustext">Faire quelque chose de bien</li>
-                        <li className="continuoustext">S'amuser, se distraire, prendre du plaisir</li>
+                        <li className="continuoustext">S&apos;amuser, se distraire, prendre du plaisir</li>
                         <li className="continuoustext">S’améliorer, s’affranchir, s’épanouir</li>
                     </ul>
 				</section>

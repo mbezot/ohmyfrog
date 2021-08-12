@@ -5,9 +5,9 @@ import React, { useRef } from "react";
 export default function FourOhFour() {
 
     const ref = useRef(null);
-  React.useEffect(() => {
-    import("@lottiefiles/lottie-player");
-  });
+    React.useEffect(() => {
+        import("@lottiefiles/lottie-player");
+    });
 
   return <>
 
@@ -19,29 +19,31 @@ export default function FourOhFour() {
             <div className="grid px10 py5">
                 <div className="colonne txtwhite">
                         <h1>404</h1>
-                        <h2>Oups ! Vous n'étiez pas supposé voir ça</h2>
-                        <p>La page que vous recherchez n'existe plus.<br/>
+                        <h2>Oups ! Vous n&apos;étiez pas supposé voir ça</h2>
+                        <p>La page que vous recherchez n&apos;existe plus.<br/>
                         Rendez-vous sur la&nbsp; 
                             <Link href="/">
                             <a className="txtwhite">
-                                page d'accueil
+                                page d&apos;accueil
                             </a>
-                            </Link> et rappelez-vous : vous n'avez rien vu.
+                            </Link> et rappelez-vous : vous n&apos;avez rien vu.
                         </p>
                         <Link href="/">
                             <a className="coolBeans mt5">
-                            Retour à l'accueil
+                            Retour à l&apos;accueil
                             </a>
                         </Link>
                     </div>
                     <div className="colonne">
                     <lottie-player
-                    id="404lottie" ref={ref}
-                    loop
-                    autoplay
-                    mode="normal"
-                    src="./images/lotties/quatrecentquatre.json">
-                </lottie-player>
+                        id="lottiefourohfour"
+                        ref={ref}
+                        autoplay
+                        loop
+                        mode="normal"
+                        src="./images/lotties/quatrecentquatre.json"
+                        style={{ width: "300px", height: "300px" }}
+                    ></lottie-player>           
                     </div>
                 </div>
         </main>

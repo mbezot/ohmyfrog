@@ -89,17 +89,17 @@ export default function apropos() {
             </div>
             <div className="wrapper">
                 <div className="card2__content bglightgrey"><p>Chez Oh My Frog, nous avons aidé des dizaines de clients 
-                    à faire passer leur entreprise d'une idée à une marque 
-                    florissante. Notre petite et puissante équipe d'indépendants, 
+                    à faire passer leur entreprise d&apos;une idée à une marque 
+                    florissante. Notre petite et puissante équipe d&apos;indépendants, 
                     designers, stratèges, rédacteurs, photographes et vidéastes 
-                    se charge de projets aussi variés que l'identité de marque, 
+                    se charge de projets aussi variés que l&apos;identité de marque, 
                     la stratégie marketing, en passant par la conception de sites web 
                     et bien plus encore.</p></div>
-                <div className="card2__content bglightgrey"><p>Nous n'avons pas l'habitude de prendre les choses à 
-                    la légère, et c'est pareil dans notre travail.</p>
+                <div className="card2__content bglightgrey"><p>Nous n&apos;avons pas l&apos;habitude de prendre les choses à 
+                    la légère, et c&apos;est pareil dans notre travail.</p>
                     <p><br />Nous vivons pour repousser les limites de la créativité,
                     pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis ;)
-                    C'est notre truc depuis 2017, et on adore notre job !</p></div>
+                    C&apos;est notre truc depuis 2017, et on adore notre job !</p></div>
             </div>
         </div>
 
@@ -108,14 +108,14 @@ export default function apropos() {
         <div className="px10 bggreen">
 
         <div className="sp7"></div>
-        <h2>C'est notre histoire</h2>
+        <h2>C&apos;est notre histoire</h2>
 
             <div className="wrapper">
                 <div className="card2__content">
                     <h4>2011-2017</h4>
                     <p>Lancer un blog. Jouer avec le design. Gagner un premier client 
-                        pour la conception d'un site. 
-                        Créer <a href="https://frogposters.com/" target="_blank">des affiches</a>&nbsp; 
+                        pour la conception d&apos;un site. 
+                        Créer <a href="https://frogposters.com/" rel="noreferrer" target="_blank">des affiches</a>&nbsp; 
                         pour le plaisir.
                         Comprendre Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
                         Reprendre le rythme. Suivre un cours de HTML et CSS. </p>
@@ -123,19 +123,19 @@ export default function apropos() {
                 <div className="card2__content">
                     <h4>2018</h4>
                     <p>Lancer une boutique en ligne. Affiner sa connaissance des 
-                        techniques marketing et de pub. Se former à l'inbound marketing. 
+                        techniques marketing et de pub. Se former à l&apos;inbound marketing. 
                         Construire des méthodologies.
                     </p>
                 </div>
                 <div className="card2__content">
                     <h4>2019</h4>
                     <p>Commencer à réfléchir à un plan pour faire quelque chose de mieux et de plus grand.
-                        Ajouter l'animation des réseaux sociaux au menu des services. 
+                        Ajouter l&apos;animation des réseaux sociaux au menu des services. 
                         Quitter mon job de responsable marketing. Déménager en Provence. Lancer Oh My Frog.</p>
                 </div>
                 <div className="card2__content">
                     <h4>2020</h4>
-                    <p>Le monde s'écroule en mars. Adopter la technique du "pivot", 
+                    <p>Le monde s&apos;écroule en mars. Adopter la technique du &quot;pivot&quot;, 
                         ne pas faire de pause et aider les clients à se développer 
                         malgré une pandémie mondiale... Et en profiter pour se former au développement web.</p>
                 </div>
@@ -196,7 +196,7 @@ export default function apropos() {
 
         <div className="grid px10">
             <div className="colonne">
-                <h2>C'est notre truc</h2>
+                <h2>C&apos;est notre truc</h2>
                 <p>Ces disciplines sont pour nous ce que l’eau est à... eh bien, la grenouille.</p>
                 <p>&nbsp;</p>
             </div>

@@ -21,7 +21,7 @@ const RealisationsWeb = () => {
             <h3>Ma Vie Là</h3>
             <p>Gîte de grande capacité en Provence</p>       
             <div className="right bottom">
-            <a href="https://maviela-charleval.fr/" target="_blank"  className="btn-plus">
+            <a href="https://maviela-charleval.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>
@@ -37,7 +37,7 @@ const RealisationsWeb = () => {
             <h3>SVD Studio</h3>
             <p>Agence de communication digitale &amp; studio de motion design</p>
             <div className="right bottom">
-            <a href="https://svd-studio.fr/" target="_blank"  className="btn-plus">
+            <a href="https://svd-studio.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>
@@ -50,10 +50,10 @@ const RealisationsWeb = () => {
             alt="Stores Habit'Alp" 
             width={600} height={450} />
             <div className="card2__content">
-            <h3>Stores Habit'Alp</h3>
+            <h3>Stores Habit&apos;Alp</h3>
             <p>Spécialiste pergolas, stores, volets</p>
             <div className="right bottom">
-            <a href="https://www.storeshabitalp.fr/" target="_blank"  className="btn-plus">
+            <a href="https://www.storeshabitalp.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>
@@ -67,9 +67,9 @@ const RealisationsWeb = () => {
             width={600} height={450} />
             <div className="card2__content">
             <h3>Frog Posters</h3>
-            <p>Boutique en ligne d'affiches et posters</p>
+            <p>Boutique en ligne d&apos;affiches et posters</p>
             <div className="right bottom">
-            <a href="https://frogposters.com/" target="_blank"  className="btn-plus">
+            <a href="https://frogposters.com/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>
@@ -82,10 +82,10 @@ const RealisationsWeb = () => {
             alt="Proj'Immo" 
             width={600} height={450} />
             <div className="card2__content">
-            <h3>Proj'Immo</h3>
+            <h3>Proj&apos;Immo</h3>
             <p>Conseil en investissement locatif</p>
             <div className="right bottom">
-            <a href="https://www.proj-immo.com/" target="_blank"  className="btn-plus">
+            <a href="https://www.proj-immo.com/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>
@@ -99,9 +99,9 @@ const RealisationsWeb = () => {
             width={600} height={450} />
             <div className="card2__content">
             <h3>Maxime Ferrandin</h3>
-            <p>Architecture d'intérieur</p>
+            <p>Architecture d&apos;intérieur</p>
             <div className="right bottom">
-            <a href="https://maxime-ferrandin.fr/" target="_blank"  className="btn-plus">
+            <a href="https://maxime-ferrandin.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
                 <div className="plus">+</div>
             </a>

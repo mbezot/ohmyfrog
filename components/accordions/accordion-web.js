@@ -31,7 +31,7 @@ const AccordionWeb = () => {
 						visiteurs. Nous ne prenons pas cela à la légère !</p>
 					<p>Chez Oh My Frog nous ne faisons pas que de jolis sites web. 
 						Nous allons plus loin : votre site restitue la personnalité 
-						de votre marque, et nous l'optimisons pour que la navigation
+						de votre marque, et nous l&apos;optimisons pour que la navigation
 						soit la plus fluide pour vos visiteurs.</p>
 				</section>
 			</li>
@@ -57,7 +57,7 @@ const AccordionWeb = () => {
 					<p>Nous développons des boutiques en ligne qui vous ouvrent de nouveaux 
 						canaux de vente et améliorent la rétention de vos clients</p>
 					<p>L’achat en ligne est de plus en plus recherché par vos clients, 
-						et d'autant plus depuis les derniers confinements. 
+						et d&apos;autant plus depuis les derniers confinements. 
 						Ouvez votre boutique 7j/7j, 24h/24 !</p>
 				</section>
 			</li>
