@@ -1,16 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import Services from '../components/services'
-import Ctatwo from '../components/cta/ctatwo'
-import React, { useRef } from "react";
-
 export default function apropos() {
-
-    const ref = useRef(null);
-    React.useEffect(() => {
-    import("@lottiefiles/lottie-player");
-    });
 
     return (
         <>
@@ -28,7 +19,7 @@ export default function apropos() {
 
         <main className="grid-wrap">
 
-        <div className="grid hero bgpink px10 py5">
+        <div className="grid hero bgabout px10 py5">
         <div className="colonne">
             <h1 className="txtwhite">Qui sommes-nous ?</h1>
             <p className="leadL txtwhite">Nous aidons les PME à obtenir plus de trafic, de contacts et de ventes en ligne grâce à un marketing digital simple, rapide et efficace*.</p>
@@ -67,16 +58,6 @@ export default function apropos() {
 			</li>
 		</ul>
         </div>
-
-        <div className="lottieabout">
-                <lottie-player
-                    id="aboutlottie" ref={ref}
-                    loop
-                    autoplay
-                    mode="normal"
-                    src="./images/lotties/apropos.json">
-                </lottie-player>
-            </div>
 
         </div>
         </div>

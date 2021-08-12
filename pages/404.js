@@ -42,7 +42,6 @@ export default function FourOhFour() {
                         loop
                         mode="normal"
                         src="./images/lotties/quatrecentquatre.json"
-                        style={{ width: "300px", height: "300px" }}
                     ></lottie-player>           
                     </div>
                 </div>

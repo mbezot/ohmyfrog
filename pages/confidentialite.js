@@ -141,7 +141,7 @@ votre visite sur ce site." />
 				Vous pouvez empêcher l’enregistrement des cookies en paramétrant votre logiciel de navigation pour ce faire. Cependant, merci de noter que dans ce cas, il se peut que vous ne puissiez pas utiliser pleinement toutes les fonctions de ce site Internet. De plus, vous pouvez empêcher le recensement des données concernant votre utilisation du site Internet générées par le cookie (y compris votre adresse IP) par Google ainsi que le traitement de ces données par Google en téléchargeant et en installant le plugiciel de navigateur disponible à l’adresse suivante: <a href="http://tools.google.com/dlpage/gaoptout?hl=de.">http://tools.google.com/dlpage/gaoptout?hl=de.</a>
 				<p>&nbsp;</p>
 				<h3>7.4 Partage vers les réseaux sociaux</h3>
-				Nous vous proposons la "fonction de partage" sur nos sites Web et dans nos applications. Elle peut être utilisée pour partager le contenu de nos sites Web, tels que des actualités, articles ou projets, par e-mail et via les médias sociaux (Facebook, LinkedIn, Pinterest, Twitter, Google Plus, WhatsApp, email...).
+				Nous vous proposons la &quot;fonction de partage&quot; sur nos sites Web et dans nos applications. Elle peut être utilisée pour partager le contenu de nos sites Web, tels que des actualités, articles ou projets, par e-mail et via les médias sociaux (Facebook, LinkedIn, Pinterest, Twitter, Google Plus, WhatsApp, email...).
 
 				Si vous partagez des contenus par e-mail, sachez que vous êtes responsable de l&apos;envoi de l&apos;e-mail et que vous êtes considéré comme le responsable du traitement des données conformément à la loi française sur la protection des données.
 

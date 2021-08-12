@@ -36,3 +36,8 @@
 .txtwhite {
   color: $white;
 }
+.bgabout {
+  background:url(/images/about.svg) no-repeat #FF6161;
+  background-position: bottom right;
+  background-size: 50%;
+}

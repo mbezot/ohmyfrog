@@ -128,7 +128,7 @@ export default function MarketingDigital() {
                 <p>pour <strong>Chabanel Montélimar </strong>
                     après l’optimisation des lading pages du site par Oh My Frog</p>
                     <div className="bottom right">
-                            <a className="btn-plus" href="https://www.chabanel-montelimar.fr/" target="_blank">
+                            <a className="btn-plus" rel="noreferrer" href="https://www.chabanel-montelimar.fr/" target="_blank">
                             <div>Voir le site</div>
                             <div className="plus">+</div>
                             </a>
@@ -142,7 +142,7 @@ export default function MarketingDigital() {
             <div className="number">+550%<span className="numbernormal"> leads</span></div>
                     <p>pour <strong>Stores Habit’Alp</strong> après la refonte complète du site par Oh My Frog</p>     
                     <div className="bottom right">
-                            <a className="btn-plus" href="https://www.storeshabitalp.fr/" target="_blank">
+                            <a className="btn-plus" rel="noreferrer" href="https://www.storeshabitalp.fr/" target="_blank">
                             <div>Voir le site</div>
                             <div className="plus">+</div>
                             </a>
@@ -156,7 +156,7 @@ export default function MarketingDigital() {
                     <p>pour <strong>StedBis </strong>
                     après la refonte complète du site par Oh My Frog</p>     
                     <div className="bottom right">
-                            <a className="btn-plus" href="https://www.stedbis.com/" target="_blank">
+                            <a className="btn-plus" rel="noreferrer" href="https://www.stedbis.com/" target="_blank">
                             <div>Voir le site</div>
                             <div className="plus">+</div>
                             </a>
