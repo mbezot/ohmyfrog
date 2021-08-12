@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from './contact.module.scss'
 import Link from 'next/link'
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
 
@@ -18,6 +19,8 @@ const [inputs, setInputs] = useState({
     message: '',
     salutation: '',
 });
+
+const recaptchaRef = React.createRef();
 
 const handleResponse = (status, msg) => {
     if (status === 200) {
@@ -56,6 +59,7 @@ const handleOnChange = (e) => {
 
 const handleOnSubmit = async (e) => {
     e.preventDefault();
+    recaptchaRef.current.execute();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     const res = await fetch('/api/send', {
         method: 'POST',
@@ -68,7 +72,19 @@ const handleOnSubmit = async (e) => {
     handleResponse(res.status, text);
 };
 
-
+const onReCAPTCHAChange = (captchaCode) => {
+    // If the reCAPTCHA code is null or undefined indicating that
+    // the reCAPTCHA was expired then return early
+    if(!captchaCode) {
+      return;
+    }
+    // Else reCAPTCHA was executed successfully so proceed with the 
+    // alert
+    alert(`Hello, confirmez SVP que vous n'êtes pas un robot en cliquant sur OK pour envoyer votre message :) `);
+    // Reset the reCAPTCHA so that it can be executed again if user 
+    // submits another email.
+    recaptchaRef.current.reset();
+  }
 
     return (
         <>
@@ -77,6 +93,12 @@ const handleOnSubmit = async (e) => {
                     onSubmit={handleOnSubmit}
                     className={styles.main}
                 >
+                    <ReCAPTCHA
+                        ref={recaptchaRef}
+                        size="invisible"
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                        onChange={onReCAPTCHAChange}
+                    />
                     <h2 className={styles.marge}>Hello</h2>
 
                     <div className={styles.formgroup}>

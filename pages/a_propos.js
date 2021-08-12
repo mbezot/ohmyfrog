@@ -96,10 +96,10 @@ export default function apropos() {
                     la stratégie marketing, en passant par la conception de sites web 
                     et bien plus encore.</p></div>
                 <div className="card2__content bglightgrey"><p>Nous n'avons pas l'habitude de prendre les choses à 
-                    la légère, et c'est pareil dans notre travail. 
-                    Nous vivons pour repousser les limites de la créativité,
-                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis !
-                    C'est notre truc depuis 2017, et bon sang, on adore notre travail.</p></div>
+                    la légère, et c'est pareil dans notre travail.</p>
+                    <p><br />Nous vivons pour repousser les limites de la créativité,
+                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis ;)
+                    C'est notre truc depuis 2017, et on adore notre job !</p></div>
             </div>
         </div>
 
@@ -123,7 +123,7 @@ export default function apropos() {
                 <div className="card2__content">
                     <h4>2018</h4>
                     <p>Lancer une boutique en ligne. Affiner sa connaissance des 
-                        techniques marketing et de pub. Se former à l'inbound. 
+                        techniques marketing et de pub. Se former à l'inbound marketing. 
                         Construire des méthodologies.
                     </p>
                 </div>
@@ -141,7 +141,7 @@ export default function apropos() {
                 </div>
                 <div className="card2__content">
                     <h4>2021</h4>
-                    <p>De grands objectifs et de grands rêves, et une belle croissance à venir ;) </p>
+                    <p>Des objectifs ambitieux, de grands rêves, et une belle croissance à venir ;) </p>
                 </div>
             </div>
 
@@ -150,19 +150,17 @@ export default function apropos() {
         </div>
 
         <div className="grid px10 bgdarkblue pt7 pb7">
-        <div className="colonne txtwhite">
-            <h2>Les PME traversent actuellement une période de turbulences, et c’est une bonne chose.</h2>
+            <div className="wrapper">
+        <div className="txtwhite">
+            <h3>Les PME traversent actuellement une période de turbulences, et c’est une bonne chose.</h3>
             <p>La technologie évolue rapidement et nos habitudes changent : 
                 on passe plus de temps en télétravail, et plus de temps sur nos écrans. 
                 C’est le moment de développer votre présence en ligne, et de faire la différence 
                 face à vos concurrents.</p>
-            <p>Oh My Frog vous accompagne pour vous aider à tirer votre épingle du jeu dans 
-                l’univers digital. Il faut que votre marque soit visible, irrésistible, inoubliable.</p>
+            <p><br/>Oh My Frog vous accompagne pour vous aider à tirer votre épingle du jeu dans 
+                l’univers digital. </p>
         </div>
-        <div className="colonne">
-
-        <div className="wrapper">
-
+        
         <article className="card2 bggreen">
             <div className="card2__content">
                 <div className="left">
@@ -176,7 +174,8 @@ export default function apropos() {
                     Annonces Shopping</p>
             </div>
         </article>
-
+        
+        
         <article className="card2 bgyellow">
             <div className="card2__content">
                 <div className="left"><Image src="/images/hubspot-academy.svg" 
@@ -189,10 +188,9 @@ export default function apropos() {
                         Email Marketing</p>
                 </div>
         </article>
-
-        </div>
+        
     </div>
-        </div>
+    </div>
 
         <div className="sp7"></div>
 
