@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Services from '../components/services'
-import Cta2 from '../components/cta/cta2'
+import Ctatwo from '../components/cta/ctatwo'
 import React, { useRef } from "react";
 
 export default function apropos() {
@@ -28,7 +28,7 @@ export default function apropos() {
 
         <main className="grid-wrap">
 
-        <div className="grid hero2 bgpink px10 py5">
+        <div className="grid hero bgpink px10 py5">
         <div className="colonne">
             <h1 className="txtwhite">Qui sommes-nous ?</h1>
             <p className="leadL txtwhite">Nous aidons les PME à obtenir plus de trafic, de contacts et de ventes en ligne grâce à un marketing digital simple, rapide et efficace*.</p>
@@ -74,8 +74,7 @@ export default function apropos() {
                     loop
                     autoplay
                     mode="normal"
-                    src="./images/lotties/apropos.json"
-                    style={{ width: "500px", height: "500px" }}>
+                    src="./images/lotties/apropos.json">
                 </lottie-player>
             </div>
 

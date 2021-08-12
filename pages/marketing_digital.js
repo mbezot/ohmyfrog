@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import AccordionMarketing from '../components/accordions/accordion-marketing'
 import Clients from '../components/customers'
-import Cta2 from '../components/cta/cta2'
+import Ctatwo from '../components/cta/ctatwo'
 import React, { useRef } from "react";
 
 export default function MarketingDigital() {
@@ -27,21 +27,21 @@ export default function MarketingDigital() {
         </Head>
         <main className="grid-wrap">
 
-        <div className="grid hero2 bgyellow px10 py5">
+        <div className="grid hero bgyellow px10 py5">
         <div className="colonne">
             <h1>Marketing Digital</h1>
             <p className="leadL">Pour nous, le marketing digital se compose de quatre ingrédients : le bon message, les bonnes personnes, le bon média et le bon moment*.</p>
-            <div className="pt7">
+            <div className="pt5">
                 <p className="leadM">*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C'est là que nous intervenons.</p>
             </div>
             <div className="lottiemarketing">
                 <lottie-player
-                    id="weblottie" ref={ref}
-                    count="1"
+                    id="lottiemarketing" ref={ref}
+                    loop
                     autoplay
                     mode="normal"
                     src="./images/lotties/marketing.json"
-                    style={{ width: "900px", height: "900px" }}>
+                    >
                 </lottie-player>
             </div>
         </div>
@@ -111,7 +111,7 @@ export default function MarketingDigital() {
 
         <div className="sp7"></div>
 
-        <Cta2 />
+        <Ctatwo />
 
         <div className="sp7"></div>
 

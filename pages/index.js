@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
 <div className="grid bggreen hero px10">
   <div className="colonne">
     <h1 className="txtwhite">Oh My FroG</h1>
-    <h2 className="leadXL pb5">
+    <h2 className="leadXL pb3">
       <span className="txtwhite">Agence de marketing digital</span> agile, 
       honnête, qui bosse dur, qui aime s’éclater et qui pétille d’idées 
       fraîches pour votre business.</h2>
@@ -58,12 +58,11 @@ export default function Home({ allPostsData }) {
   </div>
   <div className="lottiehome">
   <lottie-player
-  Scale="5"
-    id="homelottie" ref={ref}
-    autoplay loop 
+  Scale="1"
+    id="ohmyfrog" ref={ref}
+    autoplay loop
     mode="normal"
-    src="./images/lotties/homehero2.json"
-    style={{ width: "120vw", height: "100vh" }}
+    src="./images/lotties/homehero.json"
         ></lottie-player>
   </div>
 </div>

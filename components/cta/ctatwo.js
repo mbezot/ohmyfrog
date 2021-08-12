@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 
-const Cta2 = () => {
+const Ctatwo = () => {
 
     return (
         <>
@@ -29,4 +29,4 @@ const Cta2 = () => {
         );
     }
     
-    export default Cta2;
+    export default Ctatwo;

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import RealisationsWeb from '../components/realisationsweb'
 import AccordionWeb from '../components/accordions/accordion-web'
-import Cta1 from '../components/cta/Cta1'
+import Ctaone from '../components/cta/ctaone'
 import React, { useRef } from "react";
 
 
@@ -27,19 +27,19 @@ export default function WebDesign() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="grid-wrap">
-        <div className="grid hero2 bggreen px10 py5">
+        <div className="grid hero bgyellow px10 py5">
         <div className="colonne">
-            <h1 className="txtwhite">Web Design</h1>
-            <p className="txtwhite leadL">Nous transformons votre site en machine 
-            à générer des clients. Notre objectif : faire de votre site votre vendeur N°1.</p>
+            <h1>Web Design</h1>
+            <p className="leadL">Nous transformons votre site en machine 
+            à générer des clients. <br /><br />
+            Notre objectif : en faire votre vendeur N°1.</p>
             <div className="lottieweb">
                 <lottie-player
                     id="weblottie" ref={ref}
-                    count="1"
+                    loop
                     autoplay
                     mode="normal"
-                    src="./images/lotties/webdesign.json"
-                    style={{ width: "150vw", height: "150vh" }}>
+                    src="./images/lotties/webdesign.json">
                 </lottie-player>
             </div>
         </div>
@@ -128,7 +128,7 @@ export default function WebDesign() {
 
         <div className="sp7"></div>
 
-        <Cta1 />
+        <Ctaone />
 
         <div className="sp7"></div>
 

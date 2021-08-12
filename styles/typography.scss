@@ -29,12 +29,13 @@ h4,
   margin-bottom: 1.5rem;
   margin-top: 2rem;
 }
-h1, .leadXXL {
-    font-size: 5rem;
+h1,
+.leadXXL {
+  font-size: 5rem;
   @media only screen and (max-width: 768px) {
-          font-size: 4rem;
-     }
+    font-size: 4rem;
   }
+}
 h2 {
   font-size: 2.5rem;
 }
@@ -62,6 +63,7 @@ p {
 }
 .leadM {
   font-size: 1.2rem;
+  max-width: 50%;
   z-index: 30;
 }
 mark {
@@ -108,4 +110,6 @@ a {
   color: $green;
   margin-top: 1.5rem;
 }
-li {margin-left:1rem;}
+li {
+  margin-left: 1rem;
+}

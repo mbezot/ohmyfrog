@@ -4,7 +4,7 @@ import Link from 'next/link'
 import AccordionStrategy from '../components/accordions/accordion-strategy'
 import Clients from '../components/customers'
 import Temoignages from '../components/temoignages'
-import Cta1 from '../components/cta/cta1'
+import Ctaone from '../components/cta/ctaone'
 import React, { useRef } from "react";
 
 export default function StrategieDigitale() {
@@ -27,19 +27,19 @@ export default function StrategieDigitale() {
         </Head>
         <main className="grid-wrap">
 
-        <div className="grid hero2 bgpink px10 py5">
+        <div className="grid hero bgyellow px10 py5">
         <div className="colonne">
-            <h1 className="txtwhite">Stratégie Digitale</h1>
-            <p className="txtwhite leadL">Votre plan d’action pour 
+            <h1>Stratégie Digitale</h1>
+            <p className="leadL">Votre plan d’action pour 
             vendre à la bonne personne, au bon moment.</p>
             <div className="lottiestrat">
                 <lottie-player
                     id="strategylottie" ref={ref}
-                    count="2"
+                    count="1"
                     autoplay
                     mode="normal"
                     src="./images/lotties/strategy.json"
-                    style={{ width: "auto", height: "500px"}}>
+                    >
                 </lottie-player>
             </div>
         </div>
@@ -147,7 +147,7 @@ C’est parce que vous fonctionnez au feeling et à l’opportunité, plutôt qu
 
     <div className="sp7"></div>
 
-    <Cta1 />
+    <Ctaone />
 
     <div className="sp7"></div>
 

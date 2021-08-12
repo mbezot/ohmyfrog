@@ -2,88 +2,41 @@
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: -1.5rem;
-  right: -12%;
-  @media screen and (max-width: 1280px) {
-    right: -5%;
-    bottom: -2.5rem;
-  }
+  bottom: -0.4rem;
+  right: -5rem;
+  width: 130%;
   @media screen and (max-width: 1024px) {
-    bottom: -3.5rem;
-  }
-  @media screen and (max-width: 768px) {
-    bottom: -15rem;
-  }
-  @media screen and (max-width: 480px) {
-    display: none;
+    right: -2rem;
   }
 }
 .lottiestrat {
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  right: -30rem;
-  bottom: 17rem;
-  @media screen and (max-width: 1280px) {
-    right: -40%;
-    bottom: 17rem;
-  }
-  @media screen and (max-width: 1024px) {
-    bottom: 15rem;
-  }
-  @media screen and (max-width: 768px) {
-    bottom: 18rem;
-  }
-  @media screen and (max-width: 480px) {
-    display: none;
-  }
+  right: 0;
+  bottom: -0.4rem;
+  width: 30%;
 }
 .lottiemarketing {
   z-index: 0;
   position: absolute;
-  right: -10rem;
-  bottom: 9rem;
+  right: 0;
+  bottom: 0;
   transition: all 2s ease 0s;
-  @media screen and (max-width: 1280px) {
-    bottom: -9rem;
-  }
-  @media screen and (max-width: 1024px) {
-    bottom: -8rem;
-  }
-  @media screen and (max-width: 768px) {
-    bottom: 1rem;
-  }
-  @media screen and (max-width: 480px) {
-    display: none;
-  }
 }
 .lottieweb {
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: -25%;
-  right: -50%;
-  @media screen and (max-width: 1280px) {
-    bottom: -15rem;
-  }
-  @media screen and (max-width: 1024px) {
-    bottom: -17rem;
-  }
-  @media screen and (max-width: 768px) {
-    bottom: -19rem;
-  }
-  @media screen and (max-width: 480px) {
-    display: none;
-  }
+  bottom: 0;
+  right: 0;
+  width: 120%;
 }
 .lottieabout {
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom: 27rem;
-  right: 5rem;
-  @media screen and (max-width: 768px) {
-    bottom: 22rem;
-    right: 0;
-  }
+  bottom:35%;
+  right: 10%;
+  width: 30%;
 }
