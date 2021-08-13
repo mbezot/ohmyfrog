@@ -45,6 +45,7 @@
 .card2 {
   display: flex; /* [1] */
   flex-direction: column; /* [2] */
+  margin-bottom:2rem;
 }
 
 .card2__content {
