@@ -24,7 +24,7 @@ const Footer = () => {
                 qui bosse dur, qui aime s’éclater et qui pétille d’idées fraîches pour votre business.<br />
             Chez nous pas de jargon. On vous propose plutôt un vrai accompagnement et on vous 
                     explique tout : vous savez exactement ce qui fonctionne et pourquoi.<br />
-            Nos spécialités : la création de sites web qui transforment vos visiteurs en clients, 
+            Nos spécialités : la création de sites web et e-commerce, 
                     le référencement dans les moteurs de recherche et les campagnes de pub en ligne. 
                     On fait équipe ?</p>
             <h3>Le QG</h3>
