@@ -54,6 +54,11 @@ const Menu = () => {
                             </li>
 
                             <div className="navButton right">
+                            <button className="menuBoutique"  onClick={handleClick}>
+                            <a href="http://frogposters.com/" rel="noreferrer" 
+                            target="_blank">Boutique</a>
+                            </button>
+                            
                             <button className="menuButton"  onClick={handleClick}>
                                 <Link  href="#contact"><a>
                                 Contact</a>

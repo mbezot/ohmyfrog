@@ -38,8 +38,7 @@ export default function MentionsLegales() {
                         </p>
                         <p>&nbsp;</p>
                     <h2>Hébergeur</h2>
-                        <p>Vercel<br />
-                        Vercel Inc.<br />
+                        <p>Vercel Inc.<br />
                         340 S Lemon Ave #4133<br />
                         Walnut, CA 91789<br />
                         USA</p>
