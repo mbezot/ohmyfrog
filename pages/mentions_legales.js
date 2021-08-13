@@ -38,9 +38,11 @@ export default function MentionsLegales() {
                         </p>
                         <p>&nbsp;</p>
                     <h2>Hébergeur</h2>
-                        <p>Infomaniak<br />
-                        Rue Eugène-Marziano 25, 1227 Genève, Suisse<br />
-                        Tel : +41 22 820 35 44</p>
+                        <p>Vercel<br />
+                        Vercel Inc.<br />
+                        340 S Lemon Ave #4133<br />
+                        Walnut, CA 91789<br />
+                        USA</p>
                 </div>
                 <div className="colonne">
                 <p><strong>Responsable de la publication &amp; 
@@ -59,10 +61,8 @@ export default function MentionsLegales() {
             <div className="grid bglightgrey px10 py5">
             <div className="colonne">
                 <h2>Crédits Lotties</h2>
-                <p>Incidious : <a href="https://lottiefiles.com/Indicius" rel="noreferrer" target="_blank">https://lottiefiles.com/Indicius</a><br />
-                Aldebaran Matos : <a href="https://lottiefiles.com/gkdr07dwlc" rel="noreferrer" target="_blank">https://lottiefiles.com/gkdr07dwlc</a><br />
-                Motion Drive : <a href="https://lottiefiles.com/MotionDrive" rel="noreferrer" target="_blank">https://lottiefiles.com/MotionDrive</a><br />
-                </p>
+                <p>Incidious : <a href="https://lottiefiles.com/Indicius" rel="noreferrer" 
+                target="_blank">https://lottiefiles.com/Indicius</a></p>
             </div>
             </div>
 

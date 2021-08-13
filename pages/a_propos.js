@@ -190,7 +190,7 @@ export default function apropos() {
         <div className="px20">
         <div className="wrapper">
             <div>
-                <h2>Le mot du fondateur</h2>
+                <h2>Plus d’info sur le fondateur</h2>
                 <Image src="/images/frog.svg" 
                 alt="Oh My Frog" 
                 width={100} height={100} />
