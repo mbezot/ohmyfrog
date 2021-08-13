@@ -52,13 +52,12 @@ const Menu = () => {
                             <li className='nav-item'onClick={closeMobileMenu}>
                                 <Link className='nav-link' href='/a_propos'><a>A Propos</a></Link>
                             </li>
-
-                            <div className="navButton right">
-                            <button className="menuBoutique">
+                            <li className="menuBoutique">
                             <a href="http://frogposters.com/" rel="noreferrer" 
                             target="_blank">Boutique</a>
-                            </button>
-                            
+                            </li>
+
+                            <div className="navButton right">
                             <button className="menuButton"  onClick={handleClick}>
                                 <Link  href="#contact"><a>
                                 Contact</a>
