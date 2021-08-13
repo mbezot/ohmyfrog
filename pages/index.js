@@ -34,10 +34,10 @@ export default function Home({ allPostsData }) {
 <div className="grid bggreen hero px10">
   <div className="colonne">
     <h1 className="txtwhite">Oh My FroG</h1>
-    <h2 className="leadXL pb3">
-      <span className="txtwhite">Agence de marketing digital</span> agile, 
+    <p className="leadXL pb3">
+      <span className="txtyellow">Agence de marketing digital</span> agile, 
       honnête, qui bosse dur, qui aime s’éclater et qui pétille d’idées 
-      fraîches pour votre business.</h2>
+      fraîches pour votre business.</p>
 
       <div className="flexrowleft">
       <Link href="/strategie_digitale"><a className="coolBeans">
