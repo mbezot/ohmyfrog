@@ -19,7 +19,7 @@ const Services = () => {
                 </div>
                 <h3>Audit marketing</h3>
                 <p>Faites le point sur vos points forts et points faibles.
-                    Nous établissons plan d’action stratégique pour vendre à la bonne personne, au bon moment.</p>       
+                    Nous établissons un plan d’action stratégique pour vendre à la bonne personne, au bon moment.</p>       
                 <div className="right bottom">
                     <Link href="/strategie_digitale">
                         <a className="btn-plus">

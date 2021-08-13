@@ -13,7 +13,7 @@ const AccordionWeb = () => {
 				<input type="checkbox" id="Référencement"/>
 				<label htmlFor="Référencement">Référencement<i className="icon-chevron-down"></i></label>
 				<section>
-					<p><strong>Vous attirez les bons visiteurs et vendez mieux</strong></p>
+					<p><strong>Vous attirez les bons visiteurs et vendez mieux.</strong></p>
 					<p>Aujourd’hui, vos clients passent par Google dès qu’ils 
 						recherchent un produit ou un service.</p>
 					<p>Nous optimisons votre site pour les moteurs de recherche 
@@ -26,7 +26,7 @@ const AccordionWeb = () => {
 				<input type="checkbox" id="design" />
 				<label htmlFor="design">Design</label>
 				<section>
-                    <p><strong>Vous faites bonne impression, dès les premières secondes</strong></p>
+                    <p><strong>Vous faites bonne impression, dès les premières secondes.</strong></p>
 					<p>Le design de votre site, c’est 95% de la première impression des 
 						visiteurs. Nous ne prenons pas cela à la légère !</p>
 					<p>Chez Oh My Frog nous ne faisons pas que de jolis sites web. 
@@ -44,9 +44,11 @@ const AccordionWeb = () => {
 				<input type="checkbox" id="leads"/>
 				<label htmlFor="leads">Leads<i className="icon-chevron-down"></i></label>
 				<section>
-                    <p><strong>Vous recevez des contacts qualifiés</strong></p>
+                    <p><strong>Vous recevez des contacts qualifiés.</strong></p>
                     <p>Nous optimisons votre site pour que les visiteurs vous contactent,
-						vous demandent un devis ou achètent vos produits en ligne.</p>
+						vous demandent un devis ou achètent vos produits en ligne. 
+						Ils doivent se dire ane arrivant sur votre site : &quot;voilà, cette entreprise a enfin
+						compris ce que je recherche&quot;.</p>
                 </section>
 			</li>
 			<li>
@@ -54,8 +56,8 @@ const AccordionWeb = () => {
 				<label htmlFor="ecommerce">E-Commerce</label>
 				<section>
                     <p><strong>Vous ouvrez de nouveaux horizons à votre entreprise</strong></p>
-					<p>Nous développons des boutiques en ligne qui vous ouvrent de nouveaux 
-						canaux de vente et améliorent la rétention de vos clients</p>
+					<p>Nous développons votre boutique en ligne : ouvrez de nouveaux 
+						canaux de vente et améliorez la rétention de vos clients.</p>
 					<p>L’achat en ligne est de plus en plus recherché par vos clients, 
 						et d&apos;autant plus depuis les derniers confinements. 
 						Ouvez votre boutique 7j/7j, 24h/24 !</p>

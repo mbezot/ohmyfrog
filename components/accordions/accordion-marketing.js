@@ -62,8 +62,10 @@ const AccordionMarketing = () => {
 				<label htmlFor="SEO et SEA">Référencement naturel et payant (SEO et SEA)<i className="icon-chevron-down"></i></label>
 				<section>
                     <p>Aujourd’hui, avoir un beau site web et des articles de blog ne suffit plus. Vous avez besoin de trafic !</p>
-                    <p>Nous optimisons votre site pour le <strong>référencement naturel (SEO pour Search Engine Optimization)</strong> pour que l’on vous trouve. Pour cela, nous recherchons les mots-clés les plus demandés, puis nous les intégrons dans les pages de votre site. Nous optimisons aussi votre code source, vos images etc.</p>
-                    <p>Pour mettre en place une stratégie de <strong>référencement payant (SEA pour Search Engine Advertising)</strong>, nous analysons votre concurrence, définissons ensemble votre cible, les mots clés sur lesquels vous voulez vous positionner, le type de campagne et votre budget. Puis nous lançons la campagne, analysons les résultats et ajustons pour plus de pertinence et de ROI.</p>
+                    <p>&nbsp;</p>
+					<p>Nous optimisons votre site pour le <strong>référencement naturel (SEO pour Search Engine Optimization)</strong> pour que l’on vous trouve. Pour cela, nous recherchons les mots-clés les plus demandés, puis nous les intégrons dans les pages de votre site. Nous optimisons aussi votre code source, vos images etc.</p>
+                    <p>&nbsp;</p>
+					<p>Pour mettre en place une stratégie de <strong>référencement payant (SEA pour Search Engine Advertising)</strong>, nous analysons votre concurrence, définissons ensemble votre cible, les mots clés sur lesquels vous voulez vous positionner, le type de campagne et votre budget. Puis nous lançons la campagne, analysons les résultats et ajustons pour plus de pertinence et de ROI.</p>
                 </section>
 			</li>
 			<li>
@@ -71,6 +73,7 @@ const AccordionMarketing = () => {
 				<label htmlFor="publicité en ligne">Publicité en ligne</label>
 				<section>
                     <p>Les <strong>campagnes display</strong> permettent de diffuser vos messages de manière hyper-personnalisée et peu intrusive, sous forme de bannières. Par exemple, nous ciblons vos prospects par centres d’intérêt et par secteur géographique. La mesure des performances se fait en temps réel.</p>
+					<p>&nbsp;</p>
 					<p>Les <strong>publicités sur les réseaux sociaux (SMA pour Social Media Advertising)</strong> se fondent dans le fil d’actualité et sont d’une efficacité redoutable. Images, vidéos, diaporamas… L’idée est de commencer avec un petit budget, tester ce qui fonctionne et adapter la campagne en conséquence.</p>
 				</section>
 			</li>
@@ -79,7 +82,8 @@ const AccordionMarketing = () => {
 				<label htmlFor="Newsletters et SMS">Newsletters et SMS</label>
 				<section>
 					<p>Les <strong>campagnes d’email marketing</strong> sont l’un des moyens les plus efficaces pour acquérir des clients potentiels, et c&apos;est aujourd&apos;hui encore le canal avec le meilleur taux de conversion. Partagez vos actus, envoyez une promotion, informez sur un événement, annoncez le lancement d’un produit...</p>
-                    <p>Parce qu’une personne regarde son téléphone portable 221 fois par jour, les campagnes SMS bénéficient d&apos;un taux d’ouverture de 98%, c&apos;est imparable.</p>
+                    <p>&nbsp;</p>
+					<p>Parce qu’une personne regarde son téléphone portable 221 fois par jour, les campagnes SMS bénéficient d&apos;un taux d’ouverture de 98%, c&apos;est imparable.</p>
 				</section>
 			</li>
 		</ul>

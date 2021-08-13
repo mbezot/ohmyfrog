@@ -21,20 +21,23 @@ const AccordionStrategy = () => {
 				<input type="checkbox" id="objectifs" />
 				<label htmlFor="objectifs">Définition des objectifs</label>
 				<section>
+                <p>On ne peut pas démarrer un plan marketing stratégique sans se fixer d’objectifs. Ils doivent être suffisamment ambitieux, mais aussi réalistes, atteignables et mesurables. Que souhaitez-vous accomplir :</p>
                     <ul className="continuoustext">
                         <li className="continuoustext">Faire connaître un nouveau produit ou un nouveau service ?</li>
                         <li className="continuoustext">Accroître les ventes et/ou recevoir plus de leads ?</li>
                         <li className="continuoustext">Modifier votre image de marque ?</li>
                         <li className="continuoustext">Fidéliser vos clients ?</li>
                     </ul>
-					<p>On ne peut pas démarrer un plan marketing stratégique sans se fixer d’objectifs. Ils doivent être suffisamment ambitieux, mais aussi réalistes, atteignables et mesurables. Que souhaitez-vous accomplir :</p>
+					
 				</section>
 			</li>
 			<li>
 				<input type="checkbox" id="tableaux de bord" />
 				<label htmlFor="tableaux de bord">Mise en place des tableaux de bord</label>
 				<section>
-					<p>Nous allons mettre en place les indicateurs qui nous permettront de mesurer l’efficacité de nos actions. Ces KPI (pour Key Performance Indicators) varient selon les objectifs. Ces KPI peuvent être :</p>
+					<p>Nous allons mettre en place les indicateurs qui nous permettront 
+                        de mesurer l’efficacité de nos actions. Ces KPI (pour Key Performance Indicators) 
+                        varient selon les objectifs, par exemple :</p>
                     <ul className="continuoustext">
                         <li className="continuoustext">Le nombre de visiteurs sur votre site</li>
                         <li className="continuoustext">Le nombre d’abonnés sur vos réseaux sociaux</li>
@@ -52,7 +55,8 @@ const AccordionStrategy = () => {
 				<input type="checkbox" id="persona"/>
 				<label htmlFor="persona">Identification des cibles<i className="icon-chevron-down"></i></label>
 				<section>
-					<p>Nous allons dresser un portrait-robot de vos clients idéaux - nous les appelons les &quot;personas&quot;. En général, il existe 3 personas par entreprise. Nous allons découvrir :</p>
+					<p>Nous allons dresser un portrait-robot de vos clients idéaux - nous les appelons 
+                        les &quot;personas&quot;. Nous allons découvrir :</p>
                     <ul className="continuoustext">
                         <li className="continuoustext">Leur âge, secteur géographique, CSP…</li>
                         <li className="continuoustext">Leurs besoins et motivations</li>
@@ -83,7 +87,7 @@ const AccordionStrategy = () => {
 				<input type="checkbox" id="Plan de communication" />
 				<label htmlFor="Plan de communication">Plan de communication</label>
 				<section>
-					<p>Il est temps de structurer votre communicatiopn : A quel moment envoyer quel message, à quelle personne ? 
+					<p>Il est temps de structurer votre communication : A quel moment envoyer quel message, à quelle personne ? 
                     Pour finir, nous vous remettrons un plan de communication stratégique. Il vous servira de pilier pour construire vos actions marketing et de communication. Il détaille :
                     </p>
                     <ul className="continuoustext">

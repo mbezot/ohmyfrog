@@ -77,10 +77,10 @@ export default function apropos() {
                     la stratégie marketing, en passant par la conception de sites web 
                     et bien plus encore.</p></div>
                 <div className="card2__content bglightgrey"><p>Nous n&apos;avons pas l&apos;habitude de prendre les choses à 
-                    la légère, et c&apos;est pareil dans notre travail.</p>
+                    la légère, et c&apos;est la même chose dans notre travail.</p>
                     <p><br />Nous vivons pour repousser les limites de la créativité,
-                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis ;)
-                    C&apos;est notre truc depuis 2017, et on adore notre job !</p></div>
+                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis !
+                    C&apos;est notre truc depuis 2017, et on adore notre job.</p></div>
             </div>
         </div>
 
@@ -103,7 +103,7 @@ export default function apropos() {
                 </div>
                 <div className="card2__content">
                     <h4>2018</h4>
-                    <p>Lancer une boutique en ligne. Affiner sa connaissance des 
+                    <p>Lancer la première boutique en ligne. Affiner sa connaissance des 
                         techniques marketing et de pub. Se former à l&apos;inbound marketing. 
                         Construire des méthodologies.
                     </p>
@@ -190,7 +190,7 @@ export default function apropos() {
         <div className="px20">
         <div className="wrapper">
             <div>
-                <h2>Plus d’info sur le fondateur</h2>
+                <h2>Bon à savoir - ou pas - sur le fondateur</h2>
                 <Image src="/images/frog.svg" 
                 alt="Oh My Frog" 
                 width={100} height={100} />

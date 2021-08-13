@@ -78,7 +78,7 @@ export default function MarketingDigital() {
                 <div className="number">02</div>
                 <h3>Convertir</h3>
                 <p>Convertir les visiteurs en prospects, en utilisant le marketing de contenu, 
-                    les landing pages, demandes de devis, chat...</p>     
+                    les landing pages, demandes de devis, messageries instantanées...</p>     
             </div>
         </article>
 
@@ -88,7 +88,7 @@ export default function MarketingDigital() {
                 <h3>Vendre</h3>
                 <p>Transformer les visiteurs en clients grâce aux notes et avis consommateurs, 
                     comparateurs de produits, liste de prix, promotions, CRM, 
-                    retargeting, emails auto text-centermatisés...</p>     
+                    retargeting, emails automatisés...</p>     
             </div>
         </article>
 
@@ -126,7 +126,7 @@ export default function MarketingDigital() {
             <div className="card2__content">
                 <div className="number">+260%<span className="numbernormal"> leads</span></div>
                 <p>pour <strong>Chabanel Montélimar </strong>
-                    après l’optimisation des lading pages du site par Oh My Frog</p>
+                    après l’optimisation des landing pages du site par Oh My Frog</p>
                     <div className="bottom right">
                             <a className="btn-plus" rel="noreferrer" href="https://www.chabanel-montelimar.fr/" target="_blank">
                             <div>Voir le site</div>
