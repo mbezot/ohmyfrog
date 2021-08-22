@@ -94,24 +94,24 @@ export default function apropos() {
             <div className="wrapper">
                 <div className="card2__content">
                     <h4>2011-2017</h4>
-                    <p>Lancer un blog. Jouer avec le design. Gagner un premier client 
-                        pour la conception d&apos;un site. 
-                        Créer <a href="https://frogposters.com/" rel="noreferrer" target="_blank">des affiches</a>&nbsp; 
-                        pour le plaisir.
-                        Comprendre Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
-                        Reprendre le rythme. Suivre un cours de HTML et CSS. Commencer par une micro-entreprise.</p>
+                    <p>Lancer un blog. Jouer avec le design, le HTML et le CSS. 
+                        Créer des affiches pour le plaisir.
+                        Se mettre à Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
+                        Reprendre le rythme. Démarrer une micro-entreprise. Gagner un premier client 
+                        pour la conception d&apos;un site. </p>
                 </div>
                 <div className="card2__content">
                     <h4>2018</h4>
-                    <p>Lancer la première boutique en ligne. Affiner sa connaissance des 
-                        techniques marketing et de pub. Se former à l&apos;inbound marketing. 
-                        Construire des méthodologies.
+                    <p>Lancer la <a href="https://frogposters.com/" rel="noreferrer" target="_blank">première boutique en ligne</a>. 
+                        Se perfectionner dans les 
+                        techniques de marketing digital et de pub. Se former à l&apos;inbound marketing. 
+                        Construire des méthodologies.  
                     </p>
                 </div>
                 <div className="card2__content">
                     <h4>2019</h4>
-                    <p>Commencer à réfléchir à un plan pour faire quelque chose de mieux et de plus grand.
-                        Ajouter l&apos;animation des réseaux sociaux au menu des services. 
+                    <p>Commencer à réfléchir à un plan pour faire quelque chose de mieux et de plus structuré.
+                        Ajouter l&apos;animation des réseaux sociaux au menu des services.
                         </p>
                 </div>
                 <div className="card2__content">
@@ -119,7 +119,7 @@ export default function apropos() {
                     <p>Le monde s&apos;écroule en mars. Adopter la technique du &quot;pivot&quot;, 
                         ne pas faire de pause et aider les clients à se développer 
                         malgré une pandémie mondiale... Et en profiter pour se former au développement web.
-                        Quitter mon job de responsable marketing. Déménager en Provence. Lancer Oh My Frog.</p>
+                        Quitter mon job de responsable marketing. Lancer Oh My Frog.</p>
                 </div>
                 <div className="card2__content">
                     <h4>2021</h4>
