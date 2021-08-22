@@ -17,7 +17,7 @@ const Services = () => {
                     alt="Audit marketing" 
                     width={80} height={80} />
                 </div>
-                <h3>Audit marketing</h3>
+                <h3>Audit Marketing</h3>
                 <p>Faites le point sur vos points forts et points faibles.
                     Nous établissons un plan d’action stratégique pour vendre à la bonne personne, au bon moment.</p>       
                 <div className="right bottom">
@@ -59,7 +59,7 @@ const Services = () => {
                     alt="Marketing digital" 
                     width={80} height={80} />
                 </div>
-                <h3>Marketing digital</h3>
+                <h3>Marketing Digital</h3>
                 <p>Référencement, réseaux sociaux, landing pages, inbound marketing...
                 Vous allez enchaîner les leads comme Nadal enchaîne les coups droits.</p>       
                 <div className="right bottom">
