@@ -80,7 +80,7 @@ const onReCAPTCHAChange = (captchaCode) => {
     }
     // Else reCAPTCHA was executed successfully so proceed with the 
     // alert
-    alert(`Hello, confirmez SVP que vous n'êtes pas un robot en cliquant sur OK pour envoyer votre message :) `);
+    alert(`Hello, confirmez SVP que vous n'êtes pas un robot en cliquant sur ce bouton pour envoyer votre message :) `);
     // Reset the reCAPTCHA so that it can be executed again if user 
     // submits another email.
     recaptchaRef.current.reset();
@@ -122,7 +122,7 @@ const onReCAPTCHAChange = (captchaCode) => {
                             autoComplete="name"
                             onChange={handleOnChange}
                             value={inputs.name}
-                            placeholder="Bond. James Bond."
+                            placeholder="votre nom"
                         />
                     </div>
 

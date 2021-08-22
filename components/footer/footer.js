@@ -19,7 +19,7 @@ const Footer = () => {
             <Contact/>
         </div>
         <div className="colonne txtwhite">
-            <h3>Oh My FrOG</h3>
+            <h3>Oh My FroG</h3>
             <p>Oh My Frog est une agence marketing pour les PME perfusée au digital, agile, honnête, 
                 qui bosse dur, qui aime s’éclater et qui pétille d’idées fraîches pour votre business.<br />
             Chez nous pas de jargon. On vous propose plutôt un vrai accompagnement et on vous 
@@ -51,7 +51,7 @@ const Footer = () => {
                 viewBox="0 0 16 16">
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                 </svg>
-            <span ><a href="mailto:melanie@ohmyfrog.fr">melanie@ohmyfrog.fr</a></span>
+            <span ><a href="mailto:melanie@ohmyfrog.fr">melanie &#91;@&#93; ohmyfrog.fr</a></span>
             </div>
             
             <p>&nbsp;</p>

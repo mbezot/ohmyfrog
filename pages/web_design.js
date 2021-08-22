@@ -72,7 +72,7 @@ export default function WebDesign() {
                 <h3>Référencement</h3>
                 <p>Nous recerchons les mots clés relatifs à votre activité 
                         les plus demandés dans Google. Nous optimisons votre site 
-                        sur ces mots clés pour que votre référencement naturel soit optimal.</p>       
+                        sur ces mots clés pour que votre référencement soit optimal.</p>       
             </div>
             </article>
 
@@ -82,7 +82,9 @@ export default function WebDesign() {
                 <h3>UX / UI</h3>
                 <p>Nous élaborons avec vous un plan du site et 
                     une architecture des pages. Cela nous aide à définir les principaux 
-                    éléments, les fonctionnalités et la structure de votre nouveau site web.</p>       
+                    éléments, les fonctionnalités et la structure de votre nouveau site web.</p>
+                <p>Nous soignons aussi le design de votre site, pour que vous
+                    fassiez bonne impression, dès les premières secondes.</p>       
             </div>
             </article>
 
@@ -101,16 +103,17 @@ export default function WebDesign() {
                 <div className="number">05</div>
                 <h3>Génération de leads</h3>
                 <p>Votre site ne doit pas simplement être beau. 
-                    Il doit convertir vos visiteurs en prospects. Nous concevons toutes les 
-                    pages dans cette optique, à l&apos;aide de Call to Action (CTA) et de landing pages.</p>       
+                    Il doit convertir vos visiteurs en clients. Nous concevons toutes les 
+                    pages dans cette optique, à l&apos;aide de Call to Action (CTA) 
+                    et de landing pages.</p>       
             </div>
             </article>
 
             <article className="card2 bglightgrey">
             <div className="card2__content">
                 <div className="number">06</div>
-                <h3>Développement</h3>
-                <p>Nous concevons les graphiques et les éléments visuels pour 
+                <h3>Animation et déploiement</h3>
+                <p>Enfin, Nous concevons les graphiques et les éléments visuels pour 
                         donner vie à votre site web.</p>       
             </div>
             </article>

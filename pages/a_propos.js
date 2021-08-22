@@ -99,7 +99,7 @@ export default function apropos() {
                         Créer <a href="https://frogposters.com/" rel="noreferrer" target="_blank">des affiches</a>&nbsp; 
                         pour le plaisir.
                         Comprendre Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
-                        Reprendre le rythme. Suivre un cours de HTML et CSS. </p>
+                        Reprendre le rythme. Suivre un cours de HTML et CSS. Commencer par une micro-entreprise.</p>
                 </div>
                 <div className="card2__content">
                     <h4>2018</h4>
@@ -112,13 +112,14 @@ export default function apropos() {
                     <h4>2019</h4>
                     <p>Commencer à réfléchir à un plan pour faire quelque chose de mieux et de plus grand.
                         Ajouter l&apos;animation des réseaux sociaux au menu des services. 
-                        Quitter mon job de responsable marketing. Déménager en Provence. Lancer Oh My Frog.</p>
+                        </p>
                 </div>
                 <div className="card2__content">
                     <h4>2020</h4>
                     <p>Le monde s&apos;écroule en mars. Adopter la technique du &quot;pivot&quot;, 
                         ne pas faire de pause et aider les clients à se développer 
-                        malgré une pandémie mondiale... Et en profiter pour se former au développement web.</p>
+                        malgré une pandémie mondiale... Et en profiter pour se former au développement web.
+                        Quitter mon job de responsable marketing. Déménager en Provence. Lancer Oh My Frog.</p>
                 </div>
                 <div className="card2__content">
                     <h4>2021</h4>
