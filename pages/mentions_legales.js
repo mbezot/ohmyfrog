@@ -60,7 +60,7 @@ export default function MentionsLegales() {
             <div className="grid bglightgrey px10 py5">
             <div className="colonne">
                 <h2>Crédits Lotties</h2>
-                <p>Incidious : <a href="https://lottiefiles.com/Indicius" rel="noreferrer" 
+                <p>Indicius : <a href="https://lottiefiles.com/Indicius" rel="noreferrer" 
                 target="_blank">https://lottiefiles.com/Indicius</a></p>
             </div>
             </div>

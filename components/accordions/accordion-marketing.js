@@ -6,8 +6,11 @@ const AccordionMarketing = () => {
 
     return (
         <>
-        <div className="grid bggreen px10 py5">
-            <div className="colonne">
+			
+        <div className="bggreen px10 py5 my0">
+			<h2>Voici la palette d&apos;outils dont nous nous servons pour la génération de leads</h2>
+<div className="grid">
+        <div className="colonne">
         <ul className="accordion accblue">
 			<li>
 				<input type="checkbox" id="inbound marketing"/>
@@ -89,6 +92,7 @@ const AccordionMarketing = () => {
 		</ul>
         </div>
         </div>
+		</div>
         </>
         );
     }

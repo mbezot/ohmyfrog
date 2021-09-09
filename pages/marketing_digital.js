@@ -31,6 +31,7 @@ export default function MarketingDigital() {
         <div className="colonne">
             <h1>Marketing Digital</h1>
             <p className="leadL">Pour nous, le marketing digital se compose de quatre ingrédients : le bon message, les bonnes personnes, le bon média et le bon moment*.</p>
+            <p className="leadL pt2">L&apos;objectif : Générer des leads.</p>
             <div className="pt5">
                 <p className="leadM">*La liste des ingrédients est simple comme bonjour, mais il faut le bon chef pour les réunir de manière cohérente. C&apos;est là que nous intervenons.</p>
             </div>
@@ -53,8 +54,8 @@ export default function MarketingDigital() {
 
         <div className="grid px10 pb0">
             <div className="colonne">
-                <h2>Le parcours client</h2>
-                <p className="leadM">Nous relions précisément chaque tactique à chaque étape 
+                <h2>Générer des leads en optimisant le parcours de vos clients</h2>
+                <p className="mw70">Nous relions précisément chaque tactique à chaque étape 
                 du parcours client, pour convertir vos visiteurs en ambassadeurs de votre marque.</p>
                 <p>&nbsp;</p>
             </div>
@@ -106,7 +107,7 @@ export default function MarketingDigital() {
     </div>
 
         <div className="sp7"></div>
-
+        
         <AccordionMarketing />
 
         <div className="sp7"></div>
