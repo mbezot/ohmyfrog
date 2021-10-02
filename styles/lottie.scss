@@ -6,7 +6,7 @@
   right: -5rem;
   width: 130%;
   @media screen and (max-width: 1024px) {
-    right: -2rem;
+    right: 0;
   }
 }
 .lottiestrat {
@@ -36,7 +36,7 @@
   z-index: 0;
   position: absolute;
   transition: all 1s ease 0s;
-  bottom:35%;
+  bottom: 35%;
   right: 10%;
   width: 30%;
 }
