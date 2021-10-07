@@ -26,7 +26,7 @@ a.btn-plus {
   color: $darkblue;
   letter-spacing: 0;
   transition: 0.2s transform ease-out;
-  margin-top:1rem;
+  margin-top: 1rem;
   text-decoration: none;
   font-weight: bold;
   &:hover {
@@ -59,6 +59,31 @@ div.card2__content > div > a {
   will-change: transform;
   cursor: pointer;
   &:hover {
+    letter-spacing: 0.2rem;
+    transition: 0.2s;
+  }
+}
+.bnt-outline {
+  border: 1px solid $white;
+  background-color: none;
+  z-index: 3;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: $body-font;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  cursor: pointer;
+  &:hover {
+    background-color: $darkblue;
     letter-spacing: 0.2rem;
     transition: 0.2s;
   }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Services from '../components/services'
+import Clients from '../components/customers'
 export default function apropos() {
 
     return (
@@ -79,7 +80,7 @@ export default function apropos() {
                 <div className="card2__content bglightgrey"><p>Nous n&apos;avons pas l&apos;habitude de prendre les choses à 
                     la légère, et c&apos;est la même chose dans notre travail.</p>
                     <p><br />Nous vivons pour repousser les limites de la créativité,
-                    pour garder les pieds sur terre, et pour (aussi) célébrer les vendredis !
+                    pour garder les pieds sur terre, et pour (aussi) <a href="https://www.instagram.com/frogposters/" rel="noreferrer" target="_blank">célébrer les vendredis</a> !
                     C&apos;est notre truc depuis 2017, et on adore notre job.</p></div>
             </div>
         </div>
@@ -92,6 +93,14 @@ export default function apropos() {
         <h2>C&apos;est notre histoire</h2>
 
             <div className="wrapper">
+            <div className="card2__content">
+                    <h4>2006-2020</h4>
+                    <p>M&apos;éclater dans mon job de responsable marketing France et Benelux pour un groupe Allemand.
+                        Découvrir le marché de la mécanique industrielle et de la CAO. 
+                        S&apos;adapter aux différences culturelles, lancer les réseaux sociaux et le marketing digital, devenir la pionnère des filiales 
+                        du groupe pour la stratégie de contenu.                    
+                    </p>
+                </div>
                 <div className="card2__content">
                     <h4>2011-2017</h4>
                     <p>Lancer un blog. Jouer avec le design, le HTML et le CSS. 
@@ -123,7 +132,7 @@ export default function apropos() {
                 </div>
                 <div className="card2__content">
                     <h4>2021</h4>
-                    <p>Des objectifs ambitieux, de grands rêves, et une belle croissance à venir ;) </p>
+                    <p>Des objectifs ambitieux et de grands rêves pour une belle croissance à venir ;) </p>
                 </div>
             </div>
 
@@ -173,6 +182,12 @@ export default function apropos() {
         
     </div>
     </div>
+
+        <div className="sp7"></div>
+        <Clients />
+        <div className="sp7"></div>
+        <Image className="client" 
+                src="/images/carte-clients-ohmyfrog-02.svg" alt= "ESF Chaillol" width={1920} height={840} />
 
         <div className="sp7"></div>
 

@@ -30,7 +30,7 @@ const Menu = () => {
                     <div className='nav-container container'>
 
                     <div className="logo">
-                        <Link onClick={closeMobileMenu} href="/"><a>Oh My FroG</a></Link>
+                        <Link onClick={closeMobileMenu} href="/"><a><span className="aalt">O</span>H <span className="aalt">M</span>Y <span className="aalt">F</span>ROG</a></Link>
                     </div>
 
                         <div onClick={handleClick} className='menu-icon'>

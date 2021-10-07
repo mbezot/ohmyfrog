@@ -39,17 +39,17 @@ export default function Home({ allPostsData }) {
       honnête, qui bosse dur, qui aime s’éclater et qui pétille d’idées 
       fraîches pour votre business.</p>
 
-      <div className="flexrowleft">
-      <Link href="/strategie_digitale"><a className="coolBeans">
+      <div className="flexrowleft pb7">
+      <Link href="/strategie_digitale"><a className="bnt-outline">
           Stratégie digitale
           </a>
         </Link>
 
-        <Link href="/marketing_digital"><a className="coolBeans">
+        <Link href="/marketing_digital"><a className="bnt-outline">
           Marketing Digital</a>
         </Link>
 
-        <Link href="/web_design"><a className="coolBeans">
+        <Link href="/web_design"><a className="bnt-outline">
           Web Design</a>
         </Link>
       </div>
@@ -62,7 +62,7 @@ export default function Home({ allPostsData }) {
     id="ohmyfrog" ref={ref}
     autoplay loop
     mode="normal"
-    src="./images/lotties/homehero.json"
+    src="./images/lotties/homehero3.json"
         ></lottie-player>
   </div>
 </div>
@@ -101,7 +101,7 @@ export default function Home({ allPostsData }) {
             <div className="card2__content">
             <h3>Vous manquez de temps ou de savoir-faire</h3>
             <p>On vous parle de digital, mais vous ne savez pas par quoi commencer. 
-              Vous avez mis en place en des actions qui manquent d’efficacité, 
+              Vous avez mis en place des actions qui manquent d’efficacité, 
               et vous manquez de temps pour les optimiser.</p>
             <div className="right bottom">
               <Link href="/strategie_digitale">
