@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Contact from '../contact/contact'
+import Image from 'next/image'
 
 const Footer = () => {
 
@@ -78,7 +79,7 @@ const Footer = () => {
                     </div>
         </div>
     </div>
-    <div className="grid footer pt5 pb5">
+    <div className="grid footer footerbgimage pt5 pb5">
         <div className="colonne txtwhite center">
         <p className="menu">
                 <Link href="/a_propos"><a> A propos</a></Link> |
@@ -91,7 +92,10 @@ const Footer = () => {
             <p className="smalltext">This site is protected by reCAPTCHA and the Google
                     <a href="https://policies.google.com/privacy" rel="noreferrer" target="_blank">Privacy Policy</a> and
                     <a href="https://policies.google.com/terms" rel="noreferrer" target="_blank">Terms of Service</a> apply.</p>
+        
+                    <div className="sp7"></div>
         </div>
+        
     </div>
 </footer>
 

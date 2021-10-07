@@ -4,6 +4,18 @@
 .footer {
   background-color: $darkblue;
 }
+.footerbgimage {
+  background-image: url(../public/images/ohmyfrog-culbuto-footer.svg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+}
+@media screen and (max-width: 1000px) {
+  .footerbgimage {
+    background-size: 100%;
+  }
+}
 // icon + text
 .footericontext {
   display: flex;
