@@ -80,7 +80,7 @@ export default function apropos() {
                 <div className="card2__content bglightgrey"><p>Nous n&apos;avons pas l&apos;habitude de prendre les choses à 
                     la légère, et c&apos;est la même chose dans notre travail.</p>
                     <p><br />Nous vivons pour repousser les limites de la créativité,
-                    pour garder les pieds sur terre, et pour (aussi) <a href="https://www.instagram.com/frogposters/" rel="noreferrer" target="_blank">célébrer les vendredis</a> !
+                    pour garder les pieds sur terre, et pour &#40;aussi&#41;&nbsp;<a href="https://www.instagram.com/frogposters/" rel="noreferrer" target="_blank">célébrer les vendredis</a> !
                     C&apos;est notre truc depuis 2017, et on adore notre job.</p></div>
             </div>
         </div>
@@ -102,12 +102,12 @@ export default function apropos() {
                     </p>
                 </div>
                 <div className="card2__content">
-                    <h4>2011-2017</h4>
+                    <h4>2017</h4>
                     <p>Lancer un blog. Jouer avec le design, le HTML et le CSS. 
                         Créer des affiches pour le plaisir.
-                        Se mettre à Wordpress. Faire des erreurs. Surfer sur Google, beaucoup. 
-                        Reprendre le rythme. Démarrer une micro-entreprise. Gagner un premier client 
-                        pour la conception d&apos;un site. </p>
+                        Découvrir Wordpress. Faire des erreurs, comprendre, progresser. 
+                        Se mettre à temps partiel sur mon poste de responsable marketing. Démarrer une micro-entreprise. 
+                        Gagner mes premiers clients. </p>
                 </div>
                 <div className="card2__content">
                     <h4>2018</h4>
@@ -148,7 +148,7 @@ export default function apropos() {
                 on passe plus de temps en télétravail, et plus de temps sur nos écrans. 
                 C’est le moment de développer votre présence en ligne, et de faire la différence 
                 face à vos concurrents.</p>
-            <p><br/>Oh My Frog vous accompagne pour vous aider à tirer votre épingle du jeu dans 
+            <p>Oh My Frog vous accompagne pour vous aider à tirer votre épingle du jeu dans 
                 l’univers digital. </p>
         </div>
         
