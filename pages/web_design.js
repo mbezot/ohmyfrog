@@ -47,6 +47,10 @@ export default function WebDesign() {
 
         <div className="sp7"></div>
 
+        <RealisationsWeb />
+
+        <div className="sp7"></div>
+
         <div className="grid px10 pb5">
             <div className="colonne">
                 <h2>Comment nous fonctionnons</h2>
@@ -120,10 +124,6 @@ export default function WebDesign() {
 
         </div>
         </div>
-
-        <div className="sp7"></div>
-
-        <RealisationsWeb />
 
         <div className="sp7"></div>
 
