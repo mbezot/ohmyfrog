@@ -14,6 +14,40 @@ const RealisationsWeb = () => {
         <div className="wrapper">
 
         <article className="card2 bgyellow">
+            <Image src="/images/portfolioweb/web-design-vhl-france.jpg" 
+            alt="VHL France" 
+            width={600} height={450} />
+        <div className="card2__content">
+            <h3>VHL France</h3>
+            <p>Lutter ensemble contre la maladie de von Hippel-Lindau</p>       
+            <div className="right bottom">
+            <a href="https://vhlfrance.org/" rel="noreferrer" target="_blank"  className="btn-plus">
+              <div>Voir le site</div>
+                <div className="plus">+</div>
+            </a>
+            </div>
+        </div>
+        </article>
+
+        <article className="card2 bgyellow">
+            <Image src="/images/portfolioweb/web-design-js-automation.jpg" 
+            alt="JS Automation" 
+            width={600} height={450} />
+        <div className="card2__content">
+            <h3>JS Automation</h3>
+            <p>La technologie et l’expertise comme passion, le contrôle-commande et la supervision comme solution</p>       
+            <div className="right bottom">
+            <a href="https://jsautomation.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
+              <div>Voir le site</div>
+                <div className="plus">+</div>
+            </a>
+            </div>
+        </div>
+        </article>
+
+
+
+        <article className="card2 bgyellow">
             <Image src="/images/portfolioweb/web-design-secondly.jpg" 
             alt="Secondly" 
             width={600} height={450} />
