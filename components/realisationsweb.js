@@ -35,7 +35,7 @@ const RealisationsWeb = () => {
             width={600} height={450} />
         <div className="card2__content">
             <h3>JS Automation</h3>
-            <p>La technologie et l’expertise comme passion, le contrôle-commande et la supervision comme solution</p>       
+            <p>Architecture de solutions, contrôle-commande, supervision</p>       
             <div className="right bottom">
             <a href="https://jsautomation.fr/" rel="noreferrer" target="_blank"  className="btn-plus">
               <div>Voir le site</div>
